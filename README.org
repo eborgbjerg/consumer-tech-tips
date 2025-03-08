@@ -1,4 +1,5 @@
-w<<top>>
+This is a collection of tips on how to avoid american big tech companies products.
+<<top>>
 #+OPTIONS: toc:nil
 #+TOC: headlines 3
 

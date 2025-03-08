@@ -1,13 +1,14 @@
-w<a id="org19bf5a2"></a>
+This is a collection of tips on how to avoid american big tech companies products.
+<a id="org0b9d442"></a>
 
 
 # Table of Contents
 
-1.  [Don't throw out your laptop just yet!](#orgcd502d7)
-2.  [Links](#org4f76d2c)
+1.  [Don't throw out your laptop just yet!](#orgc1cddf0)
+2.  [Links](#org527c25e)
 
 
-<a id="orgcd502d7"></a>
+<a id="orgc1cddf0"></a>
 
 # Don't throw out your laptop just yet!
 
@@ -19,7 +20,7 @@ What many people don't know is that it is relatively easy to install a Linux-bas
 Check out the Lubuntu Linux system - see the link.
 
 
-<a id="org4f76d2c"></a>
+<a id="org527c25e"></a>
 
 # Links
 
