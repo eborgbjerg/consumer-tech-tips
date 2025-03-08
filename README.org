@@ -1,15 +1,19 @@
-w<a id="org19bf5a2"></a>
+w<<top>>
+#+OPTIONS: toc:nil
+#+TOC: headlines 3
 
 
-# Table of Contents
+* Export this document :noexport:
 
-1.  [Don't throw out your laptop just yet!](#orgcd502d7)
-2.  [Links](#org4f76d2c)
+M-x org-md-export-to-markdown RET <filename> RET
 
 
-<a id="orgcd502d7"></a>
+* Don't throw out your laptop just yet!
 
-# Don't throw out your laptop just yet!
+
+
+
+
 
 As MS Windows 10 is no longer supported, its users are being pressured into upgrading.
 But in many cases, it may be that your computer (laptop or desktop) is not suited for running Windows 11.
@@ -19,9 +23,6 @@ What many people don't know is that it is relatively easy to install a Linux-bas
 Check out the Lubuntu Linux system - see the link.
 
 
-<a id="org4f76d2c"></a>
+* Links
 
-# Links
-
-[Lubuntu Manual](https://manual.lubuntu.me/lts/)
-
+[[https://manual.lubuntu.me/lts/][Lubuntu Manual]]
