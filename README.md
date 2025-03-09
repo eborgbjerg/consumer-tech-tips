@@ -1,14 +1,14 @@
 This is a collection of tips on how to avoid using products from big tech companies residing in areas without a properly functioning democracy.
-<a id="orgdb7dab2"></a>
+<a id="org425c23c"></a>
 
 
 # Table of Contents
 
-1.  [Don't throw out your old computer just yet!](#orgc1d6a34)
-2.  [Replace Microsoft Office with LibreOffice](#org07b3ea4)
+1.  [Don't throw out your old computer just yet!](#orgfc9f594)
+2.  [Replace Microsoft Office with LibreOffice](#org04b0248)
 
 
-<a id="orgc1d6a34"></a>
+<a id="orgfc9f594"></a>
 
 # Don't throw out your old computer just yet!
 
@@ -18,7 +18,7 @@ For example, the computer might not have sufficient RAM memory. Or it may not sa
 M$ invents.
 
 What many people don't know is, that it is relatively easy to install a Linux-based system, which in many cases will run absolutely fine.
-Check out the Lubuntu Linux system.
+Check out the Lubuntu Linux system. This system is specially adapted to run well on systems with lower-than-average hardware specs.
 
 Whereas Windows 11 will hardly run in any meaningful way on e.g. a laptop with 4GB RAM, the Lubuntu desktop typically will run great.
 
@@ -32,7 +32,7 @@ able to install it.
 [Lubuntu on Wikipedia](https://en.wikipedia.org/wiki/Lubuntu)
 
 
-<a id="org07b3ea4"></a>
+<a id="org04b0248"></a>
 
 # Replace Microsoft Office with LibreOffice
 
