@@ -1,14 +1,14 @@
-This is a collection of tips on how to avoid using prtoducts from big tech companies residing in areas without a properly functioning democracy.
-<a id="orgf4e6555"></a>
+This is a collection of tips on how to avoid using products from big tech companies residing in areas without a properly functioning democracy.
+<a id="orgdb7dab2"></a>
 
 
 # Table of Contents
 
-1.  [Don't throw out your old computer just yet!](#orgbddecab)
-2.  [Replace Microsoft Office with LibreOffice](#orgda6b4cc)
+1.  [Don't throw out your old computer just yet!](#orgc1d6a34)
+2.  [Replace Microsoft Office with LibreOffice](#org07b3ea4)
 
 
-<a id="orgbddecab"></a>
+<a id="orgc1d6a34"></a>
 
 # Don't throw out your old computer just yet!
 
@@ -32,7 +32,7 @@ able to install it.
 [Lubuntu on Wikipedia](https://en.wikipedia.org/wiki/Lubuntu)
 
 
-<a id="orgda6b4cc"></a>
+<a id="org07b3ea4"></a>
 
 # Replace Microsoft Office with LibreOffice
 

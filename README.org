@@ -1,4 +1,4 @@
-This is a collection of tips on how to avoid using prtoducts from big tech companies residing in areas without a properly functioning democracy.
+This is a collection of tips on how to avoid using products from big tech companies residing in areas without a properly functioning democracy.
 <<top>>
 #+OPTIONS: toc:nil
 #+TOC: headlines 3
