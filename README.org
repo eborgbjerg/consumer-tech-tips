@@ -1,4 +1,4 @@
-This is a collection of tips on how to avoid american big tech companies products.
+This is a collection of tips on how to avoid using prtoducts from big tech companies residing in areas without a properly functioning democracy.
 <<top>>
 #+OPTIONS: toc:nil
 #+TOC: headlines 3
@@ -9,7 +9,7 @@ This is a collection of tips on how to avoid american big tech companies product
 M-x org-md-export-to-markdown RET <filename> RET
 
 
-* Don't throw out your laptop just yet!
+* Don't throw out your old computer just yet!
 
 
 As MS Windows 10 is no longer supported, its users are being pressured into upgrading.
@@ -22,17 +22,23 @@ Check out the Lubuntu Linux system.
 
 Whereas Windows 11 will hardly run in any meaningful way on e.g. a laptop with 4GB RAM, the Lubuntu desktop typically will run great.
 
-Furthermore, Lubuntu (just as any Linux system) is freely available, with no cost.
+Furthermore, Lubuntu (just as any Linux system) is freely available at no cost.
 
 Lubuntu has been around since about 2009, its manual (see link below) is extremely well written and detailed, so that most people - tech savvy or not - will be
 able to install it.
 
-
-* Links
 
 [[https://manual.lubuntu.me/lts/][Lubuntu Manual]]
 
 [[https://en.wikipedia.org/wiki/Lubuntu][Lubuntu on Wikipedia]]
 
 
+* Replace Microsoft Office with LibreOffice
+
+Unless your usage of MS Office is really complex - using esoteric functionality and/or integrating with other special-purpose software -
+switching to LibreOffice should be easy enough. LibreOffice runs on all mainstream operating systems, and then some.
+
+[[https://www.libreoffice.org/][LibreOffice]]
+
+[[https://en.wikipedia.org/wiki/LibreOffice][LibreOffice on Wikipedia]]
 
