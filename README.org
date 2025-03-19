@@ -42,3 +42,51 @@ switching to LibreOffice should be easy enough. LibreOffice runs on all mainstre
 
 [[https://en.wikipedia.org/wiki/LibreOffice][LibreOffice on Wikipedia]]
 
+
+* Smartphones :noexport:
+
+Installing a FOSS system on an older phone:
+
+Android phones: It seems that if the phone is not too old, then it should be possible to install
+a version of LineageOS or /e/OS on it.
+If the phone is too old and no longer supported by LineageOS or /e/OS, then the only option may be to
+build the new system yourself, which will require substantial technical skill level, so hardly worth it for most people.
+
+
+| Name/model       | Description | Pros             | Cons          | Link |
+|------------------+-------------+------------------+---------------+------|
+| FreePhone        |             | European company | Stock Android |      |
+| Murena FreePhone |             | European company |               |      |
+
+
+
+* Tablets :noexport:
+
+| Name/model         | Description    | Pros                 | Cons                          | Link |
+|--------------------+----------------+----------------------+-------------------------------+------|
+| Samsung Galaxy Tab | Various models | South Korean company | Android with Google trappings |      |
+| Murena FreePhone   |                |                      |                               |      |
+
+
+* Online storage :noexport:
+
+* Email service :noexport:
+
+* Other Resources
+
+This is a list of resources that might help to get information.
+
+https://isitamerican.eu/
+Based on an AI backend, this allows us to check given names of brands/companies for "american-ness".
+It may not be 100% reliable, so always be critical and verify things by other sources.
+
+https://european-alternatives.eu/
+This is a listing of european alternatives in categories of IT.
+
+
+* Terms and abbreviations :noexport:
+
+FOSS = Free and Open Source Software
+
+
+
