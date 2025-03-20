@@ -1,14 +1,15 @@
 This is a collection of tips on how to avoid using products from big tech companies residing in areas without a properly functioning democracy.
-<a id="org425c23c"></a>
+<a id="org3a42c4e"></a>
 
 
 # Table of Contents
 
-1.  [Don't throw out your old computer just yet!](#orgfc9f594)
-2.  [Replace Microsoft Office with LibreOffice](#org04b0248)
+1.  [Don't throw out your old computer just yet!](#org4182507)
+2.  [Replace Microsoft Office with LibreOffice](#orgde35f09)
+3.  [Other Resources](#orgfafb7a7)
 
 
-<a id="orgfc9f594"></a>
+<a id="org4182507"></a>
 
 # Don't throw out your old computer just yet!
 
@@ -32,7 +33,7 @@ able to install it.
 [Lubuntu on Wikipedia](https://en.wikipedia.org/wiki/Lubuntu)
 
 
-<a id="org04b0248"></a>
+<a id="orgde35f09"></a>
 
 # Replace Microsoft Office with LibreOffice
 
@@ -42,4 +43,18 @@ switching to LibreOffice should be easy enough. LibreOffice runs on all mainstre
 [LibreOffice](https://www.libreoffice.org/)
 
 [LibreOffice on Wikipedia](https://en.wikipedia.org/wiki/LibreOffice)
+
+
+<a id="orgfafb7a7"></a>
+
+# Other Resources
+
+This is a list of resources that might help to get information.
+
+<https://isitamerican.eu/>
+Based on an AI backend, this allows us to check given names of brands/companies for "american-ness".
+It may not be 100% reliable, so always be critical and verify things by other sources.
+
+<https://european-alternatives.eu/>
+This is a listing of european alternatives in categories of IT.
 
