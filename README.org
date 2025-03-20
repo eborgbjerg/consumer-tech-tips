@@ -76,18 +76,29 @@ switching to LibreOffice should be easy enough. LibreOffice runs on all mainstre
 
 * Smartphones :noexport:
 
-Installing a FOSS system on an older phone:
+*Installing a FOSS system on an older phone*
 
 Android phones: It seems that if the phone is not too old, then it should be possible to install
 a version of LineageOS or /e/OS on it.
 If the phone is too old and no longer supported by LineageOS or /e/OS, then the only option may be to
 build the new system yourself, which will require substantial technical skill level, so hardly worth it for most people.
 
+https://linuxpusher.dk/vare/linux-mobiltelefon-med-sailfish-os/
+offers to install Sailfish OS on an existing, supported phone.
 
-| Name/model       | Description | Pros             | Cons          | Link |
-|------------------+-------------+------------------+---------------+------|
-| FreePhone        |             | European company | Stock Android |      |
-| Murena FreePhone |             | European company |               |      |
+
+*Getting a new phone*
+
+| Name/model       | Description | Pros                      | Cons          | Links                                                     |
+|------------------+-------------+---------------------------+---------------+-----------------------------------------------------------|
+| FreePhone        |             | European company          | Stock Android | https://www.youtube.com/watch?v=Q79Jl842B4g               |
+| Murena FreePhone |             | European company          |               |                                                           |
+| Jolla Phone      |             | European company, FOSS OS |               | https://shop.jolla.com/  - at least one dubious YT review |
+|                  |             |                           |               |                                                           |
+
+
+
+
 
 
 
@@ -115,6 +126,18 @@ It may not be 100% reliable, so always be critical and verify things by other so
 
 https://european-alternatives.eu/
 This is a listing of european alternatives in categories of IT.
+
+https://hudd.no/
+Norwegian alternative to Facebook. At this time for norwegians only.
+
+https://zzvibe.com
+Danish Facebook alternative.
+
+https://socii.dk/
+Brand new danish alternative to Facebook :-)
+
+https://www.youtube.com/watch?v=YaMc64IAC8g
+De-googling in general.
 
 
 * Terms and abbreviations :noexport:
