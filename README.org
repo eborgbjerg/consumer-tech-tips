@@ -9,6 +9,37 @@ This is a collection of tips on how to avoid using products from big tech compan
 M-x org-md-export-to-markdown RET <filename> RET
 
 
+* Strategies :noexport:
+
+** Recycle hardware as much as possible
+
+Buy refurbished device.
+Optimize the use of the device to minimize the usage of bad software and/or services.
+
+*Example*
+Buy a refurbished iPad.
+Replace the usage of bad stuff like GMail, Google Drive, Google Photos etc.
+
+** Buy hardware from good sources
+
+*Example*
+The FairPhone is mainstream, buy it at a local shop (DK: Proshop).
+It's Stock Android, but as always you can replace as much of the Google stuff as you are comfortable with.
+
+** All in - pure hardware and software
+As you'd expect, this can be tricky.
+
+*Example*
+You like the FairPhone, but you want to get rid of the Google spyware.
+Look at Murena.com - they offer the FairPhone with Android replaced by /e/OS (a system that is created
+from Android by removing Google's bad stuff and making the resulting system work - not trivial).
+
+*Example*
+Watch this project: https://soulscircuit.com/
+Not production ready yet, but it should be a matter of time only before this happens...
+
+
+
 * Don't throw out your old computer just yet!
 
 
@@ -70,7 +101,9 @@ build the new system yourself, which will require substantial technical skill le
 
 * Online storage :noexport:
 
+
 * Email service :noexport:
+
 
 * Other Resources
 
