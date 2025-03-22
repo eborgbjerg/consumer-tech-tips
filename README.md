@@ -1,15 +1,15 @@
 This is a collection of tips on how to avoid using products from big tech companies residing in areas without a properly functioning democracy.
-<a id="org3a42c4e"></a>
+<a id="orgcddef04"></a>
 
 
 # Table of Contents
 
-1.  [Don't throw out your old computer just yet!](#org4182507)
-2.  [Replace Microsoft Office with LibreOffice](#orgde35f09)
-3.  [Other Resources](#orgfafb7a7)
+1.  [Don't throw out your old computer just yet!](#orge877656)
+2.  [Replace Microsoft Office with LibreOffice](#org52410c7)
+3.  [Other Resources](#org9b27650)
 
 
-<a id="org4182507"></a>
+<a id="orge877656"></a>
 
 # Don't throw out your old computer just yet!
 
@@ -33,7 +33,7 @@ able to install it.
 [Lubuntu on Wikipedia](https://en.wikipedia.org/wiki/Lubuntu)
 
 
-<a id="orgde35f09"></a>
+<a id="org52410c7"></a>
 
 # Replace Microsoft Office with LibreOffice
 
@@ -45,7 +45,7 @@ switching to LibreOffice should be easy enough. LibreOffice runs on all mainstre
 [LibreOffice on Wikipedia](https://en.wikipedia.org/wiki/LibreOffice)
 
 
-<a id="orgfafb7a7"></a>
+<a id="org9b27650"></a>
 
 # Other Resources
 
@@ -57,4 +57,16 @@ It may not be 100% reliable, so always be critical and verify things by other so
 
 <https://european-alternatives.eu/>
 This is a listing of european alternatives in categories of IT.
+
+<https://hudd.no/>
+Norwegian alternative to Facebook. At this time for norwegians only.
+
+<https://zzvibe.com>
+Danish Facebook alternative.
+
+<https://socii.dk/>
+Brand new danish alternative to Facebook :-)
+
+<https://www.youtube.com/watch?v=YaMc64IAC8g>
+De-googling in general.
 

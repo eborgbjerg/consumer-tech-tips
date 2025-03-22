@@ -11,6 +11,8 @@ M-x org-md-export-to-markdown RET <filename> RET
 
 * Strategies :noexport:
 
+** Extend the life of existing hardware
+
 ** Recycle hardware as much as possible
 
 Buy refurbished device.
@@ -20,11 +22,13 @@ Optimize the use of the device to minimize the usage of bad software and/or serv
 Buy a refurbished iPad.
 Replace the usage of bad stuff like GMail, Google Drive, Google Photos etc.
 
+
 ** Buy hardware from good sources
 
 *Example*
 The FairPhone is mainstream, buy it at a local shop (DK: Proshop).
 It's Stock Android, but as always you can replace as much of the Google stuff as you are comfortable with.
+
 
 ** All in - pure hardware and software
 As you'd expect, this can be tricky.
@@ -76,6 +80,99 @@ switching to LibreOffice should be easy enough. LibreOffice runs on all mainstre
 
 * Smartphones :noexport:
 
+** Extend the life of existing hardware
+
+** Recycle hardware as much as possible
+
+Buy refurbished device.
+Optimize the use of the device to minimize the usage of bad software and/or services.
+
+*Example*
+Buy a refurbished iPad.
+Replace the usage of bad stuff like GMail, Google Drive, Google Photos etc.
+
+
+** Buy hardware from good sources
+
+*Example*
+The FairPhone is mainstream, buy it at a local shop (DK: Proshop).
+It's Stock Android, but as always you can replace as much of the Google stuff as you are comfortable with.
+
+
+** All in - pure hardware and software
+As you'd expect, this can be tricky.
+
+*Example*
+You like the FairPhone, but you want to get rid of the Google spyware.
+Look at Murena.com - they offer the FairPhone with Android replaced by /e/OS (a system that is created
+from Android by removing Google's bad stuff and making the resulting system work - not trivial).
+
+*Example*
+Watch this project: https://soulscircuit.com/
+Not production ready yet, but it should be a matter of time only before this happens...
+
+
+
+- Samsung Galaxy
+ - Android
+ - Designed in South Korea
+ - Qualcomm
+
+   
+- FairPhone
+ - Android
+ - Designed in The Netherlands; designed to maximalize sustainability
+ - Qualcomm SoC (Qualcomm based in California)
+
+   
+- Other
+  - Murena
+    - /e/OS - this is essentially Android with the Google software removed
+    - Murena also offers online services akin to Googles workspaces
+    
+
+
+/e/OS and LineageOS can also be installed on various supported handsets.
+To do this yourself can be tricky though (which is why e.g. Murena offers to do it).
+
+  
+
+
+** Handsets :noexport:
+
+| Name/model       | Company HQ  | OS       | Notes                                                                              | Links                                                     |
+|------------------+-------------+----------+------------------------------------------------------------------------------------+-----------------------------------------------------------|
+| Samsung Galaxy   | South Korea | Android  |                                                                                    |                                                           |
+| FairPhone        | Netherlands | Android  |                                                                                    | https://www.youtube.com/watch?v=Q79Jl842B4g               |
+| Murena FreePhone | France      | /e/OS    | Murena offers an online "workspace", with features comparable to Google Workspace. |                                                           |
+| Jolla Phone      | Finland     | Sailfish |                                                                                    | https://shop.jolla.com/  - at least one dubious YT review |
+
+
+** Operating Systems :noexport:
+
+| Name      |   |   |   |   |
+|-----------+---+---+---+---|
+| Android   |   |   |   |   |
+| /e/OS     |   |   |   |   |
+| LineageOS |   |   |   |   |
+| Sailfish  |   |   |   |   |
+
+
+
+** Software :noexport:
+
+| Name      |   |   |   |   |
+|-----------+---+---+---+---|
+| Android   |   |   |   |   |
+| /e/OS     |   |   |   |   |
+| LineageOS |   |   |   |   |
+| Sailfish  |   |   |   |   |
+
+
+
+
+** Notes  :noexport:
+
 *Installing a FOSS system on an older phone*
 
 Android phones: It seems that if the phone is not too old, then it should be possible to install
@@ -87,33 +184,26 @@ https://linuxpusher.dk/vare/linux-mobiltelefon-med-sailfish-os/
 offers to install Sailfish OS on an existing, supported phone.
 
 
-*Getting a new phone*
-
-| Name/model       | Description | Pros                      | Cons          | Links                                                     |
-|------------------+-------------+---------------------------+---------------+-----------------------------------------------------------|
-| FreePhone        |             | European company          | Stock Android | https://www.youtube.com/watch?v=Q79Jl842B4g               |
-| Murena FreePhone |             | European company          |               |                                                           |
-| Jolla Phone      |             | European company, FOSS OS |               | https://shop.jolla.com/  - at least one dubious YT review |
-|                  |             |                           |               |                                                           |
-
-
-
-
-
-
 
 * Tablets :noexport:
 
-| Name/model         | Description    | Pros                 | Cons                          | Link |
-|--------------------+----------------+----------------------+-------------------------------+------|
-| Samsung Galaxy Tab | Various models | South Korean company | Android with Google trappings |      |
-| Murena FreePhone   |                |                      |                               |      |
+| Name/model         | Description    | Pros                 | Cons                                     | Link |
+|--------------------+----------------+----------------------+------------------------------------------+------|
+| Samsung Galaxy Tab | Various models | South Korean company | Android with Google trappings            |      |
+| Murena FreePhone   |                |                      |                                          |      |
+| PineTab            |                | Hong Kong            | Hong Kong!, target audience = developers |      |
 
 
 * Online storage :noexport:
 
 
 * Email service :noexport:
+
+
+* Investing :noexport:
+
+RPI
+
 
 
 * Other Resources
