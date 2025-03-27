@@ -1,15 +1,15 @@
 This is a collection of tips on how to avoid using products from big tech companies residing in areas without a properly functioning democracy.
-<a id="orgcddef04"></a>
+<a id="orgbc9ab20"></a>
 
 
 # Table of Contents
 
-1.  [Don't throw out your old computer just yet!](#orge877656)
-2.  [Replace Microsoft Office with LibreOffice](#org52410c7)
-3.  [Other Resources](#org9b27650)
+1.  [Don't throw out your old computer just yet!](#org7f811b7)
+2.  [Replace Microsoft Office with LibreOffice](#org86f099b)
+3.  [Other Resources](#orgd10114f)
 
 
-<a id="orge877656"></a>
+<a id="org7f811b7"></a>
 
 # Don't throw out your old computer just yet!
 
@@ -33,7 +33,7 @@ able to install it.
 [Lubuntu on Wikipedia](https://en.wikipedia.org/wiki/Lubuntu)
 
 
-<a id="org52410c7"></a>
+<a id="org86f099b"></a>
 
 # Replace Microsoft Office with LibreOffice
 
@@ -45,7 +45,7 @@ switching to LibreOffice should be easy enough. LibreOffice runs on all mainstre
 [LibreOffice on Wikipedia](https://en.wikipedia.org/wiki/LibreOffice)
 
 
-<a id="org9b27650"></a>
+<a id="orgd10114f"></a>
 
 # Other Resources
 

@@ -68,6 +68,35 @@ able to install it.
 [[https://en.wikipedia.org/wiki/Lubuntu][Lubuntu on Wikipedia]]
 
 
+* Email service :noexport:
+
+To replace GMail, Outlook, Exchange.
+
+| Provider | Homepage               |
+|----------+------------------------|
+| Proton   | https://proton.me/mail |
+| Posteo   | https://posteo.de/en   |
+
+Others, see https://european-alternatives.eu/category/email-providers
+
+
+* Application Software                                             :noexport:
+
+** Office
+LibreOffice
+Note also database...
+
+** Web browser
+Vivaldi
+
+** Internet search
+Startpage
+Ecosia
+
+** Email
+Thunderbird
+
+
 * Replace Microsoft Office with LibreOffice
 
 Unless your usage of MS Office is really complex - using esoteric functionality and/or integrating with other special-purpose software -
@@ -191,13 +220,21 @@ offers to install Sailfish OS on an existing, supported phone.
 |--------------------+----------------+----------------------+------------------------------------------+------|
 | Samsung Galaxy Tab | Various models | South Korean company | Android with Google trappings            |      |
 | Murena FreePhone   |                |                      |                                          |      |
-| PineTab            |                | Hong Kong            | Hong Kong!, target audience = developers |      |
-
+| PineTab            |                | Hong Kong            | Hong Kong!, target audience = 
 
 * Online storage :noexport:
 
+To replace Google Drive, Google Photos.
 
-* Email service :noexport:
+Proton
+pCloud
+
+Others see https://european-alternatives.eu/category/file-hosting-services
+
+
+* Payment services :noexport:
+
+Paypal?
 
 
 * Investing :noexport:
