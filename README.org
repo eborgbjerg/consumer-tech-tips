@@ -107,6 +107,19 @@ switching to LibreOffice should be easy enough. LibreOffice runs on all mainstre
 [[https://en.wikipedia.org/wiki/LibreOffice][LibreOffice on Wikipedia]]
 
 
+* Get rid of Google :noexport:
+
+
+https://www.computerworld.dk/art/290702/kan-man-overhovedet-droppe-amerikansk-tech-som-iphone-gmail-og-facebook-her-er-de-europaeiske-alternativer?fbclid=IwZXh0bgNhZW0CMTEAAR3Ohx7Xq1-YfKfdYvvUSa1is0TAnG_-ZzXE8d5mbCiiLnzEDxGQrqBOXP4_aem_9OzQpMFoQOIVgm27VvXQpg
+
+https://www.tek.no/nyheter/guide/i/25wQ5r/beste-alternativer-til-amerikanske-tjenester
+
+
+Every android phone has Google tracking and software crap installed, on a degoogled phone all of Googles tracking software is removed.
+
+And in order to run android apps, on a degoogled phone you need a app called wayDroid that makes the apps that require Google tracking think they are talking to Google severs.
+
+
 * Smartphones :noexport:
 
 ** Extend the life of existing hardware
