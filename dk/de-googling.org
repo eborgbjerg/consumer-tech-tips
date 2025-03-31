@@ -1,0 +1,286 @@
+
+* Resourcer
+
+https://www.computerworld.dk/art/290702/kan-man-overhovedet-droppe-amerikansk-tech-som-iphone-gmail-og-facebook-her-er-de-europaeiske-alternativer?fbclid=IwZXh0bgNhZW0CMTEAAR3Ohx7Xq1-YfKfdYvvUSa1is0TAnG_-ZzXE8d5mbCiiLnzEDxGQrqBOXP4_aem_9OzQpMFoQOIVgm27VvXQpg
+
+
+
+* Enheder
+
+
+** SoC udvalg
+
+https://en.wikipedia.org/wiki/System_on_a_chip
+
+
+
+
+** Fairphone
+
+https://www.proshop.dk/Mobil/Fairphone-5-256GB8GB-Matte-Black/3197879
+
+uses a Qualcomm SoC
+and Corning Gorilla Glass 5
+
+
+** Nokia
+
+https://www.proshop.dk/Mobil/Nokia-G42-5G-128GB6GB-Grey/3188852
+
+Qualcomm Snapdragon
+Corning Gorilla Glass
+
+
+** Samsung
+
+https://www.proshop.dk/Mobil/Samsung-Galaxy-S24-FE-128GB8GB-Graphite/3293585
+
+note that the processor is Samsungs own manufacture!
+but the display is  Corning Gorilla Glass Victus+ (US company)
+det må da antages, at modem on chip så også er Samsungs egen(!)
+Se under spørgsmål.
+
+
+** Sony
+
+https://www.proshop.dk/Mobil?pre=0&b=sony
+
+all of them use Qualcomm SoC
++ Corning Gorilla Glas
+  
+
+** Spørgsmål
+
+Q: I am to write up an article about how a consumer living in Denmark can select an Android smartphone with these primary criteria in mind:
+1) no HW components involve any US business
+2) as few HW components as possible involve any Chinese business
+Can you suggest a handful of the most relevant such phones?
+
+
+A: Based on your criteria, here are a few Android smartphones that prioritize sustainability and ethical manufacturing practices, with minimal involvement from US and Chinese businesses:
+
+1. **Fairphone 4**:
+   - **Origin**: Designed in the Netherlands.
+   - **Components**: Focuses on ethical and sustainable sourcing of materials.
+   - **Features**: Modular design allows for easy repairs and upgrades.
+   - **Price**: Around €579.
+
+2. **Shiftphone**:
+   - **Origin**: Designed and manufactured in Europe.
+   - **Components**: Emphasizes sustainability and ethical sourcing.
+   - **Features**: Modular design, focuses on longevity and repairability.
+   - **Price**: Varies by model, but generally around €500-€600.
+
+3. **Sony Xperia 1 IV**:
+   - **Origin**: Designed in Japan, manufactured in various locations including Europe.
+   - **Components**: Known for high-quality components, though some may be sourced globally.
+   - **Features**: Compact design, excellent camera capabilities.
+   - **Price**: Around €999.
+
+4. **HMD Pulse Pro**:
+   - **Origin**: Designed by HMD Global, a company known for sustainability and repairability.
+   - **Components**: Likely sourced from various regions, including Europe.
+   - **Features**: 6.65-inch display, Unisoc T606 processor, 5000 mAh battery.
+   - **Price**: Around €150.
+
+5. **Nothing Phone (2)**:
+   - **Origin**: Designed in the UK, manufactured in India.
+   - **Components**: Focuses on sustainability and ethical manufacturing.
+   - **Features**: Innovative design, emphasis on reducing e-waste.
+   - **Price**: Around €499.
+
+These phones prioritize sustainability, ethical manufacturing, and repairability, with minimal involvement from US and Chinese businesses in their components.
+
+
+Q: Is it possible to buy a new smartphone where none of the hardware was manufactured in either USA or China?
+
+A: Finding a smartphone where none of the hardware components are manufactured in the USA or China can be challenging due to the global supply chain and the dominance of these countries in electronics manufacturing. However, there are a few strategies you can consider:
+
+1. **European or Korean Brands**: Some European and Korean brands may have more components manufactured within their respective regions. Brands like Samsung (Korea) and Nokia (Finland) have significant manufacturing capabilities in their home countries.
+
+2. **Fairphone**: Fairphone is a Dutch company that focuses on ethical and sustainable manufacturing practices. Their smartphones are designed with a strong emphasis on using responsibly sourced materials and fair labor practices.
+
+3. **Refurbished or Used Phones**: Consider buying a refurbished or used phone. This can reduce the environmental impact and may offer devices that were manufactured before certain supply chain shifts.
+
+4. **Custom or Modular Phones**: Some companies offer modular phones where you can choose the origin of certain components. This allows for more control over the manufacturing sources of your device.
+
+5. **Local Assembly**: Look for phones that are assembled locally, even if some components are sourced from other countries. Local assembly can support local economies and reduce the carbon footprint associated with shipping.
+
+6. **Transparency Reports**: Check the transparency reports of companies. Some companies provide detailed reports on their supply chain and manufacturing processes, which can help you make an informed decision.
+
+
+Q: for each of the 5 phones above, please list:
+1) the Soc used
+2) the display material used, whether it's Corning Gorilla Glass or something else
+
+A: The display material is a crucial component that affects durability and user experience.
+
+- **Fairphone 4**:
+  - **SoC**: Qualcomm Snapdragon 750G
+  - **Display Material**: Corning Gorilla Glass Victus
+
+- **Shiftphone**:
+  - **SoC**: Unisoc T606
+  - **Display Material**: Not explicitly stated, but likely a durable material given the focus on sustainability.
+
+- **Sony Xperia 1 IV**:
+  - **SoC**: Qualcomm Snapdragon 8 Gen 1
+  - **Display Material**: Corning Gorilla Glass Victus
+
+- **HMD Pulse Pro**:
+  - **SoC**: Unisoc T606
+  - **Display Material**: Not explicitly stated, but likely a durable material given the focus on sustainability.
+
+- **Nothing Phone (2)**:
+  - **SoC**: Qualcomm Snapdragon 7+ Gen 2
+  - **Display Material**: Not explicitly stated, but likely a durable material given the focus on sustainability.
+
+These phones prioritize sustainability and ethical manufacturing practices, with some using Corning Gorilla Glass for enhanced durability.
+
+Q: I noticed that HMD Pulse Pro phone is offered with only 3 years of security updates.
+Is this normal for Android phones?
+(I think my Google Pixel 8 comes with 7 years of security updates)
+
+A: The duration of security updates for Android phones can vary significantly depending on the manufacturer and the specific model. Here's a breakdown of the typical update policies for some major Android phone manufacturers:
+
+1. **Google Pixel**: Google's Pixel phones are known for their long-term software support. The Pixel 8, for example, is expected to receive 7 years of security updates. This is one of the longest update commitments in the Android ecosystem.
+
+2. **Samsung**: Samsung typically offers 4 years of major Android OS updates and 5 years of security updates for its flagship Galaxy S and Galaxy Note series. Some mid-range and budget models may receive fewer updates.
+
+3. **HMD Global (Nokia)**: HMD Global offers 3 years of monthly security updates and 2 major Android OS updates for its Nokia-branded phones. This is in line with what you mentioned for the HMD Pulse Pro.
+
+4. **OnePlus**: OnePlus provides 3 major Android OS updates and 4 years of security updates for its flagship models. Some older models may have different update policies.
+
+5. **Sony**: Sony offers 2 years of major Android OS updates and 3 years of security updates for its Xperia series.
+
+6. **Motorola**: Motorola provides 2 major Android OS updates and 3 years of security updates for its flagship models.
+
+The HMD Pulse Pro's 3 years of security updates are in line with what many mid-range Android phones offer, but it is less than what some flagship models from other manufacturers provide.
+
+
+
+Q: Tjener Google penge når fx. Samsung sælger en telefon med Android?
+
+A: ?
+
+Q: How much would Corning receive for 1 device with the Corning Gorilla Glass Victus+
+
+A: The Corning Gorilla Glass Victus 2 is manufactured using a 4-nanometer process technology, which is designed
+to enhance its durability and scratch resistance. The glass is specifically engineered to withstand drops
+onto rough surfaces like concrete from heights of up to one meter,
+which is a significant improvement over previous generations that typically fail at half that height .
+
+The price for the Corning Gorilla Glass Victus 2 is not publicly disclosed, as it is typically sold
+to manufacturers like Samsung for use in their devices rather than directly to consumers.
+However, the benefits it provides in terms of durability and scratch resistance contribute
+to the overall value and pricing of the devices that incorporate it.
+
+Based on the information available, the cost of Corning Gorilla Glass Victus 2 for a manufacturer like Samsung
+is likely to be in the range of $20 to $30 per device.
+This estimate is derived from the typical pricing for high-end protective glass used in smartphones,
+considering the advanced features and durability improvements offered by Gorilla Glass Victus 2.
+However, the exact cost can vary depending on the specific terms of the agreement between Corning
+and the manufacturer, as well as the volume of units ordered.
+
+Q: If I have the smartphone Samsung Galaxy S24 Graphite - which parts of the hardware are made by US companies?
+
+A: The Samsung Galaxy S24 Graphite, like other smartphones, is composed of various hardware components, some of which may be sourced from US companies. Here are some potential US-made components in the Galaxy S24:
+
+1. **Processor**: The Galaxy S24 series uses Qualcomm Snapdragon processors for certain models,
+   particularly those sold in the US, Canada, China, Macau, Hong Kong, Taiwan, and Japan.
+   Qualcomm is a US-based company, so the Snapdragon 8 Gen 3 processor in these models is likely manufactured by a US company .
+
+2. **Display**: The display technology, particularly the Corning Gorilla Glass Victus 2 used in the Galaxy S24,
+   is developed by Corning Inc., a US-based company. This glass is used for the front and back covers of the device .
+
+3. **Modem**: The Snapdragon X75 5G modem, which is part of the Snapdragon 8 Gen 3 chipset, is also likely manufactured by Qualcomm, a US company .
+
+4. **Memory**: The LPDDR5X memory used in the Galaxy S24 could be sourced from Micron Technology,
+   a US-based semiconductor company, although this is not explicitly confirmed.
+
+These components highlight the integration of US technology in the Samsung Galaxy S24, contributing to its performance and durability.
+
+https://en.wikipedia.org/wiki/Samsung_Galaxy_S24
+
+https://www.samsung.com/ph/support/mobile-devices/what-material-is-the-galaxy-s24-made-of/
+
+
+However, in Europe, Samsung phones are often sold with Samsung Exynos 2400e SoC instead of the Qualcomm SoC.
+
+
+
+Q: where is Samsung Exynos 2400e manufactured?
+
+A: The Samsung Exynos 2400e is manufactured using Samsung's 4-nanometer process technology at their own foundries .
+
+https://nanoreview.net/en/soc/samsung-exynos-2400e
+https://www.topcpu.net/en/cpu/samsung-exynos-2400e
+https://nanoreview.net/en/soc/samsung-exynos-2400e
+
+Q: 
+
+
+* Software
+
+** Le Chat
+
+Kan bruges gratis, i browser eller som app.
+Jeg har brugt den i nogle uger, den fungerer fornuftigt.
+
+
+** HERE WeGo
+
+
+
+* Spørgsmål
+
+** Hvis jeg installerer HERE WeGo og deaktiverer Google Maps, undgår jeg så at sende data til Google?
+
+Q:
+
+how does Google benefit when I use Google Maps?
+money-wise?
+data they pick up?
+
+A:
+
+Google benefits from Google Maps in several ways, both financially and through data collection:
+
+1. **Advertising Revenue**: Google Maps generates revenue through advertising. Businesses can place ads on Google Maps to attract customers, and Google charges these companies for this service. In 2023, Google earned 7% of its revenue from ads placed on their websites, including Google Maps .
+
+2. **Google Maps Platform**: Google earns revenue through its Google Maps Platform, which provides APIs for businesses that need navigation, tracking, and mapping services. Companies can integrate these services into their applications, and Google charges various price points depending on the level of use .
+
+3. **Data Collection**: Google Maps collects valuable data from users, such as location data and search queries. This data helps improve Google's services and enhances the accuracy of its maps. It also allows Google to provide more relevant search results and targeted ads .
+
+4. **Brand Recognition**: Google Maps provides advertising and brand recognition for businesses listed on the platform. Even if users do not convert to a business transaction, the exposure can be beneficial for companies .
+
+These benefits highlight how Google Maps contributes to Google's overall business strategy and revenue generation.
+
+https://www.investopedia.com/articles/investing/061115/how-does-google-maps-makes-money.asp
+
+https://www.reddit.com/r/stocks/comments/116mh6m/why_google_doesnt_make_google_maps_as_a_paid/
+
+
+Q:
+
+If I deactivate Google Maps on my Android phone, and instead use HERE WeGo for navigation,
+will Google still pick up any data or money when I use HERE WeGo ?
+
+A:
+
+If you deactivate Google Maps and switch to using HERE WeGo for navigation, Google will generally not collect data directly from your use of HERE WeGo. However, there are a few considerations:
+
+1. **Data Collection by HERE WeGo**: HERE WeGo collects location data and other information to provide navigation services, but it emphasizes that no personal user data is collected without explicit user consent. The data collected is anonymized and cannot be tracked back to individuals .
+
+2. **Google's Data Collection**: Google may still collect data from your Android device through other means, such as Google Play Services, which are integral to the Android operating system. This data can include app usage statistics, location data (if location services are enabled), and other diagnostic information.
+
+3. **Advertising and Revenue**: Google benefits financially from data collection and advertising. Even if you're not using Google Maps, Google can still serve ads based on your overall app usage and location data collected through other Google services on your device .
+
+4. **Privacy Settings**: To minimize data collection by Google, you can adjust your privacy settings on your Android device. This includes turning off location services, limiting app permissions, and opting out of personalized ads.
+
+By using HERE WeGo, you can reduce the amount of location data shared with Google, but it's important to manage your device's privacy settings to control data collection more broadly.
+
+https://here.freshdesk.com/en/support/solutions/articles/24000068350-privacy-what-user-data-is-here-wego-collecting-and-why-
+
+https://www.investopedia.com/articles/investing/061115/how-does-google-maps-makes-money.asp
+
