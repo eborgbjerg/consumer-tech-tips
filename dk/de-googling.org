@@ -1,11 +1,11 @@
 
-* Resourcer
+* Resourcer :noexport:
 
 https://www.computerworld.dk/art/290702/kan-man-overhovedet-droppe-amerikansk-tech-som-iphone-gmail-og-facebook-her-er-de-europaeiske-alternativer?fbclid=IwZXh0bgNhZW0CMTEAAR3Ohx7Xq1-YfKfdYvvUSa1is0TAnG_-ZzXE8d5mbCiiLnzEDxGQrqBOXP4_aem_9OzQpMFoQOIVgm27VvXQpg
 
 
 
-* Enheder
+* Enheder :noexport:
 
 
 ** SoC udvalg
@@ -222,17 +222,43 @@ Q:
 
 * Software
 
-** Le Chat
+** Le Chat :noexport:
 
 Kan bruges gratis, i browser eller som app.
 Jeg har brugt den i nogle uger, den fungerer fornuftigt.
 
 
-** HERE WeGo
+** HERE WeGo :noexport:
 
 
 
-* Spørgsmål
+** Farvel til GMail
+
+På https://european-alternatives.eu/ findes et katalog over europæiske alternativer indenfor digitale produkter og tjenester.
+Her findes i skrivende stund 21 alternativer i kategorien Email Providers.
+
+I det følgende beskriver jeg hvordan man i praksis kan flytte sin email fra GMail til en af de europæiske udbydere.
+
+Af de 21 på listen har jeg foreløbig afprøvet Posteo og Proton, som begge ser fornuftige ud.
+Posteo har en prøveperiode på 14 dage, hvor man får pengene tilbage hvis man ikke ønsker at fortsætte derefter.
+Proton har et gratis abonnement med 500MB plads.
+
+
+
+*** Før migreringen
+
+Strengt taget behøver man ikke at nedlægge sin GMail konto, man kan i stedet vælge at videresende.
+
+
+
+Store filer
+https://lifehacker.com/find-the-large-attachments-eating-up-your-gmail-space-w-5958583
+
+[[file:./gmail_search.png]]
+
+
+
+* Spørgsmål :noexport:
 
 ** Hvis jeg installerer HERE WeGo og deaktiverer Google Maps, undgår jeg så at sende data til Google?
 

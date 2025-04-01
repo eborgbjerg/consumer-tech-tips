@@ -1,0 +1,161 @@
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+
+#+TITLE: Farvel til GMail
+
+
+
+På https://european-alternatives.eu/ findes et katalog over europæiske alternativer indenfor digitale produkter og tjenester.
+Her findes i skrivende stund 21 alternativer i kategorien 'Email Providers' (email udbydere).
+
+I det følgende beskriver jeg, hvordan man i praksis kan flytte sin email fra GMail til en af de europæiske udbydere.
+
+Af de 21 på listen har jeg foreløbig afprøvet Posteo og Proton, som begge ser fornuftige ud.
+Der var ikke nogen speciel grund til at det lige var de to jeg prøvede, det var blot dem jeg først hørte om.
+
+Posteo har en prøveperiode på 14 dage, hvor man får pengene tilbage hvis man ikke ønsker at fortsætte derefter.
+Proton har et gratis abonnement med 500MB plads.
+
+
+* Billeder tests :noexport:
+
+[[file:path/to/image.png][Caption Text]]
+
+#+ATTR_ORG: :width 300
+[[file:path/to/image.png]]
+
+
+
+* Før flytningen
+
+Det er en god ide at forberede sig lidt før man giver sig i kast med at flytte sine emails fra
+sin eksisterende postkasse hos GMail til sin nye postkasse. Det er primært et spørgsmål om plads.
+Man bør i almindelighed overveje følgende
+
+- Hvor meget plads bruger ens nuværende postkasse i GMail?
+
+- Er der nogle emails i GMail som fylder meget - måske endda mere end den nye udbyder tillader?
+
+Hvis nogle af dine emails hos GMail fylder mere end den nye udbyder accepterer, så vil det være en god ide at
+gamme indholdet af disse emails på din egen computer inden du eksporterer fra GMail.
+
+GMail tillader emails der fylder op til 50MB inklusive vedhæftinger.
+Posteo har samme øvre grænse, mens Proton har en grænse på 25MB.
+
+For at finde emails i GMail der fylder mere end fx. 25MB, gå ind i GMail i en browser, og
+indtast følgende i søgefeltet øverst:
+
+~size:25M~
+
+[[file:./gmail-search-by-size.png]]
+
+Sørg for at få gemt indhold og vedhæftede filer fra de emails, hvis størrelse overstiger maksimumsstørrelsen hos den nye
+udbyder, inden du eksporterer postkassen.
+
+
+TODO
+
+overvej at lave en sikkerhedskopi (MBOX)
+
+
+* kommentarer :noexport:
+
+Store filer
+https://lifehacker.com/find-the-large-attachments-eating-up-your-gmail-space-w-5958583
+
+[[file:./gmail_search.png]]
+
+In GMail, using Google Takeout, I export my mailbox in the MBOX format.
+Can this MBOX file be imported into a mail account in Posteo?
+
+Yes, you can import an MBOX file into a Posteo mail account, but it requires some specific steps. Posteo does not directly support the import of MBOX files, so you will need to use an email client that supports MBOX files and then transfer the emails to Posteo. Here’s a general approach you can follow:
+
+1. **Use an Email Client**: Use an email client like Mozilla Thunderbird that supports MBOX files. Import the MBOX file into Thunderbird.
+
+2. **Configure Posteo Account**: Set up your Posteo account in Thunderbird using IMAP settings. This will allow you to access your Posteo emails within Thunderbird.
+
+3. **Transfer Emails**: Once your Posteo account is set up in Thunderbird, you can drag and drop the imported emails from the local folders (where the MBOX file was imported) to your Posteo account folders.
+
+4. **Sync with Posteo**: After transferring the emails, Thunderbird will sync them with your Posteo account, making them accessible in your Posteo webmail interface.
+
+By following these steps, you can effectively transfer emails from an MBOX file to your Posteo account.
+
+
+* Eksport fra GMail :noexport:
+
+Google har et værktøj som kan bruges til at eksportere forskellige slags filer fra de forskellige Google programmer og tjenester.
+Værkttøjet hedder Google Takeout.
+
+Start med at logge ind på GMail i en browser (hvis du ikke allerede er logget ind).
+Åbn en ny browser fane og indtast denne adresse: https://takeout.google.com/
+
+[[file:./google-takeout-fravaelg-alt.png]]
+
+Klik på 'fravælg alle'.
+Bladr længere ned på siden til du finder afsnittet med 'Mail'.
+
+[[file:./google-takeout-vaelg-mail.png]]
+
+Marker boksen til højre, så emails kommer med i eksporten.
+
+
+* Fra GMail til Posteo :noexport:
+
+what do you recommend as the easiest way to migrate from GMail to Posteo?
+
+To migrate from GMail to Posteo, you can follow these steps:
+
+1. **Use the Posteo Migration Service**:
+   - Posteo offers a migration service that allows you to transfer your emails, contacts, and calendars from GMail to Posteo. This service supports IMAP, making it straightforward to migrate your data.
+   - To use the migration service, log in to your Posteo account, go to Settings → All settings → Account → Import via Easy Switch → Start new import, and select GMail as the service to import from. Follow the prompts to complete the migration .
+
+2. **Manual Migration Using Thunderbird**:
+   - If you prefer a manual approach or if the migration service does not support certain features, you can use an email client like Mozilla Thunderbird to transfer your emails.
+   - Set up both your GMail and Posteo accounts in Thunderbird using IMAP.
+   - Create corresponding folders in your Posteo account for each GMail label/folder.
+   - Drag and drop emails from your GMail folders to the corresponding Posteo folders in Thunderbird. This process can be done in batches to manage large volumes of emails .
+
+3. **Forwarding Emails**:
+   - Set up email forwarding from your GMail account to your Posteo account to ensure you don't miss any new emails during the transition.
+   - In GMail, go to Settings → Forwarding and POP/IMAP → Add a forwarding address, and enter your Posteo email address. Follow the verification steps to complete the setup .
+
+By following these methods, you can efficiently migrate your data from GMail to Posteo while ensuring a smooth transition.
+
+https://posteo.de/en/help/setup-posteo-migration-service
+
+https://posteo.de/en/site/faq
+
+https://posteo.de/en/help/moving-from-gmail-to-posteo
+
+
+* Fra GMail til Proton
+
+
+
+what do you recommend as the easiest way to migrate from GMail to Proton?
+
+To migrate from GMail to Proton Mail, you can use the **Easy Switch** tool provided by Proton Mail. Here are the steps to follow:
+
+1. **Use the Easy Switch Tool**:
+   - Log in to your Proton Mail account.
+   - Go to Settings → All settings → Account → Import via Easy Switch → Start new import.
+   - Select GMail as the service to import from.
+   - Follow the prompts to authorize access to your GMail account and start the import process. This will transfer your emails, contacts, and calendars from GMail to Proton Mail .
+
+2. **Set Up Email Forwarding**:
+   - Before starting the migration, set up email forwarding from your GMail account to your Proton Mail account to ensure you don't miss any new emails during the transition.
+   - In GMail, go to Settings → Forwarding and POP/IMAP → Add a forwarding address, and enter your Proton Mail address. Follow the verification steps to complete the setup .
+
+3. **Use the Import-Export App**:
+   - Proton Mail also offers an Import-Export app that allows you to import emails from your GMail account or from local files.
+   - Download and install the Import-Export app.
+   - Log in with your Proton Mail credentials and follow the prompts to import your emails and contacts from GMail .
+
+By following these steps, you can efficiently migrate your data from GMail to Proton Mail while ensuring a smooth transition.
+
+https://proton.me/support/switch-from-gmail-to-proton
+
+https://proton.me/easyswitch
+
+https://proton.me/support/easy-switch
+
