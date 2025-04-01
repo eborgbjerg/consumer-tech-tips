@@ -58,6 +58,34 @@ TODO
 overvej at lave en sikkerhedskopi (MBOX)
 
 
+TODO
+
+see:
+Q: How can I determine the storage space that my emails take up in GMail?
+The comsumed space that I see seems to include also Drive and Photos
+
+A: To determine the storage space that your emails take up in Gmail, you can follow these steps:
+
+1. **Check Gmail Storage**:
+   - Log in to your Gmail account.
+   - Click on the gear icon in the upper-right corner and select "See all settings."
+   - In the settings menu, click on the "Accounts and Import" tab.
+   - Under the "Accounts" section, you will see the storage usage for your Gmail account, including how much space is used by emails, Google Drive, and Google Photos.
+
+2. **Use Google One**:
+   - Google One provides a unified view of your storage usage across Gmail, Google Drive, and Google Photos.
+   - You can access Google One by visiting [one.google.com](https://one.google.com) and logging in with your Google account.
+   - Google One will show you a breakdown of how your storage is being used and how much space is available.
+
+3. **Check Individual Email Sizes**:
+   - If you want to check the size of individual emails, you can use the "Show original" option in Gmail to view the email headers, which include the size of the email.
+   - You can also use third-party tools or extensions that analyze your Gmail storage and provide detailed reports on email sizes and attachments.
+
+By following these steps, you can get a clear picture of how much storage space your emails are taking up in Gmail.
+
+
+
+
 * kommentarer :noexport:
 
 Store filer
