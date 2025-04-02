@@ -18,9 +18,11 @@ Mindsteprisen med Posteo er pt. 1 EUR pr. måned for 2GB plads. Man kan udvide p
 Proton har et gratis abonnement med 500MB plads. Skal man bruge mere, kan man få 15GB for 4 EUR pr. måned.
 
 Begge har en udmærket webmail. Proton har selv udviklet en mobil-app, modsat Posteo, men i stedet kan man sætte sin Posteo mail konto op i en
-generel mobil-mail app.
+generel mobil-mail app. <mention some>
+
 
 Proton tilbyder udover mail også opbevaring af filer (samme funktionalitet som Google Drive), ... summarize here
+
 
 Jeg har testet flytning af min eksisterende Gmail konto til både Proton og Posteo.
 I det følgende beskriver jeg mine erfaringer med det.
