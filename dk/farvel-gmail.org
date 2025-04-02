@@ -51,6 +51,12 @@ Min gamle Gmail konto havde inden jeg flyttede den ca. 5GB email.
 For at få plads til det på Proton, måtte jeg købe Mail Plus som koster ca. 4 EUR månedligt (billigere hvis man køber 12 måneder).
 På Posteo måtte jeg udvide den tilgængelige plads fra de 2GB først.
 
+Posteo har en smart funktion hvor man kan justere den tilgængelige plads op og ned efter behov:
+
+[[file:./posteo-adjust-space.png]]
+
+
+
 Skulle man komme til at sætte en kopiering i gang (se senere afsnit) uden at have sørget for tilstrækkelig plads, betyder det formentlig bare,
 at kopieringen går i stå på et tidspunkt når pladsforbruget kommer over et vist niveau. Og så man man formentlig få genoptaget processen ved
 at sørge for mere plads. Det har jeg dog ikke afprøvet selv.
@@ -163,6 +169,7 @@ Jeg har afprøvet det på min gamle Gmail konto med ca. 5GB mails.
   - Log ind på Proton
   - Vælg Indstillinger -> Import via Easy Switch -> Start import
   - Vælg Gmail
+    [[file:./proton-import-from-gmail.png]]
   - Følg instruktionerne for at give Gmail tilladelse og start import processen.
     Dette vil kopiere emails, kontakter og kalender(e) fra Gmail til Proton Mail.
     Et tip er at vælge Arkiv som destination, da man ellers (hvis man har mange emails i Gmail) kan ende med en
