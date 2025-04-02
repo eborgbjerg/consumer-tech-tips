@@ -4,17 +4,26 @@
 #+TITLE: Farvel til Gmail
 
 
-
 På https://european-alternatives.eu/ findes et katalog over europæiske alternativer indenfor digitale produkter og tjenester.
 Her findes i skrivende stund 21 alternativer i kategorien 'Email Providers' (email udbydere).
 
-I det følgende beskriver jeg, hvordan man i praksis kan flytte sin email fra Gmail til en af de europæiske udbydere.
-
-Af de 21 på listen har jeg foreløbig afprøvet Posteo og Proton, som begge ser fornuftige ud.
+Af de 21 på listen har jeg foreløbig afprøvet Posteo og Proton.
 Der var ikke nogen speciel grund til at det lige var de to jeg prøvede, det var blot dem jeg først hørte om.
+I denne artikel vil jeg fortælle lidt om min erfaring så vidt med de to udbydere, herunder kopiering af postkasse mv.
+fra Gmail.
 
 Posteo har en prøveperiode på 14 dage, hvor man får pengene tilbage hvis man ikke ønsker at fortsætte derefter.
-Proton har et gratis abonnement med 500MB plads.
+Mindsteprisen med Posteo er pt. 1 EUR pr. måned for 2GB plads. Man kan udvide pladsen op til højst 20GB, og betaler så mere afhængigt af mængden af plads.
+
+Proton har et gratis abonnement med 500MB plads. Skal man bruge mere, kan man få 15GB for 4 EUR pr. måned.
+
+Begge har en udmærket webmail. Proton har selv udviklet en mobil-app, modsat Posteo, men i stedet kan man sætte sin Posteo mail konto op i en
+generel mobil-mail app.
+
+Proton tilbyder udover mail også opbevaring af filer (samme funktionalitet som Google Drive), ... summarize here
+
+Jeg har testet flytning af min eksisterende Gmail konto til både Proton og Posteo.
+I det følgende beskriver jeg mine erfaringer med det.
 
 
 * Billeder tests :noexport:
@@ -53,123 +62,9 @@ Sørg for at få gemt indhold og vedhæftede filer fra de emails, hvis størrels
 udbyder, inden du eksporterer postkassen.
 
 
-TODO
-
-overvej at lave en sikkerhedskopi (MBOX)
-
-Q: No, my question is: How to import an MBOX file in Thunderbird.
-The version I have from Ubuntu "snap store" seems to be limited somehow!?
-
-A: The ImportExportTools NG add-on is indeed a tool that can be used to import MBOX files into Thunderbird. Here are the corrected steps to import an MBOX file into Thunderbird:
-
-1. **Install Thunderbird**:
-   - Ensure you have Mozilla Thunderbird installed on your computer. You can download it from the [official Thunderbird website](https://www.thunderbird.net/).
-
-2. **Install the ImportExportTools NG Add-on**:
-   - Open Thunderbird.
-   - Go to the `Tools` menu and select `Add-ons`.
-   - Search for `ImportExportTools NG` and click `Add to Thunderbird`.
-   - Restart Thunderbird to complete the installation.
-
-3. **Import the MBOX File**:
-   - Once the add-on is installed, go to the `Tools` menu again.
-   - Select `ImportExportTools NG` and then `Import mbox file`.
-   - Navigate to the location of your MBOX file and select it.
-   - Choose the folder in Thunderbird where you want to import the emails.
-   - Click `OK` to start the import process.
-
-4. **Monitor the Import Process**:
-   - Thunderbird will begin importing the emails from the MBOX file into the selected folder.
-   - You can monitor the progress in the Thunderbird interface.
-
-By following these steps, you should be able to import an MBOX file into Thunderbird successfully.
-If you encounter any issues, please ensure that the ImportExportTools NG add-on is properly installed
-and that you have the correct version of Thunderbird.
-
-
-even after instaling the ImportExport NG addon to Thunderbird,
-the Tools menu does not contain any item for that. Same Import item as before, it won't alllow for importing MBOX files.
-
-If the ImportExportTools NG addon is not showing up in the Tools menu of Thunderbird, there are a few steps you can take to troubleshoot the issue:
-
-1. **Check Add-on Installation**: Ensure that the add-on is properly installed and enabled. You can do this by going to `Tools` > `Add-ons and Themes` and verifying that ImportExportTools NG is listed and activated.
-
-2. **Restart Thunderbird**: Sometimes, a simple restart of Thunderbird can resolve issues with add-ons not appearing correctly.
-
-3. **Menu Bar Visibility**: Make sure the menu bar is visible. Depending on your version of Thunderbird, you might need to enable the menu bar under the `View` or `Customize` options .
-
-4. **Compatibility Issues**: Ensure that the version of ImportExportTools NG you have installed is compatible with your version of Thunderbird. Compatibility issues can sometimes cause the add-on to not function correctly .
-
-5. **Alternative Access**: If the add-on is installed but not appearing in the Tools menu, you can try accessing its features by right-clicking on a folder or message and looking for the ImportExportTools NG options in the context menu .
-
-6. **Reinstall the Add-on**: If none of the above steps work, try uninstalling and then reinstalling the add-on. You can download the latest version from the [Thunderbird Add-ons website](https://addons.thunderbird.net/en-US/thunderbird/addon/importexporttools-ng/) .
-
-7. **Check for Errors**: Look for any error messages or notifications that might indicate why the add-on is not functioning as expected.
-
-If you continue to experience issues, you might want to check the [GitHub issues page](https://github.com/thunderbird/import-export-tools-ng/issues) for the add-on to see if others are experiencing similar problems or to report your issue .
-
-https://github.com/thunderbird/import-export-tools-ng
-
-https://www.adviksoft.com/blog/thunderbird-importexporttools-ng-not-working/
-
-https://support.mozilla.org/en-US/questions/1320957
-
-https://addons.thunderbird.net/en-US/thunderbird/addon/importexporttools-ng/
-
-https://github.com/thunderbird/import-export-tools-ng/issues/267
-
-any other tools that can read MBOX files than Thunderbird
-
-If you're looking for alternatives to Thunderbird for reading MBOX files, there are several tools available that can help you view and manage these files without needing an email client:
-
-1. **SysTools MBOX Viewer**: This tool allows you to view and read MBOX files in various modes, such as Hex View, RTF View, and Attachments View, without installing an email client. It supports different email clients and provides advanced search options .
-
-2. **MBox Viewer**: A simple tool for viewing MBOX files, particularly useful for searching and reviewing large MBOX files like those from Gmail takeouts. It's available on GitHub and continues to be developed .
-
-3. **BitRecover MBOX Viewer**: This free tool allows you to view MBOX files on both Windows and Mac. It supports viewing emails with attachments and offers a PDF saving option, making it useful for forensic investigations .
-
-4. **Kernel MBOX Viewer**: Recognized as one of the best free MBOX viewer tools, it supports various MBOX file formats and allows easy access to mailbox data without file size restrictions .
-
-5. **Online MBOX Viewer Tools**: There are online tools available that let you upload and view MBOX files directly in your browser. These tools often have simple interfaces and support viewing emails and attachments .
-
-6. **4n6 MBOX Viewer**: A portable tool that doesn't require installation, making it convenient for use on any machine. It allows you to view emails and attachments from MBOX files .
-
-These tools provide various features and capabilities, so you can choose one based on your specific needs, such as ease of use, advanced search options, or compatibility with different operating systems.
-
-which of the above are FOSS ?
-
-Among the tools mentioned, the following are Free and Open Source Software (FOSS) for viewing MBOX files:
-
-1. **MBox Viewer**: This tool is available on GitHub and allows users to view MBOX files. It is a free and open-source application that continues to be developed and improved .
-
-These tools provide users with the ability to view and manage MBOX files without the need for an email client, and they are freely available for use and modification.
-
-https://sourceforge.net/projects/mbox-viewer/
-https://github.com/eneam/mboxviewer
-
-but MBox Viewer runs only on Windows?
-
-The MBox Viewer tool, which is available on GitHub, is primarily designed for Windows. However, there are binaries available for both Windows and Linux, indicating that it can be used on multiple platforms . This makes it a cross-platform solution for viewing MBOX files.
-
-Additionally, there are online MBOX viewers that can be accessed via a web browser, making them compatible with various operating systems, including Windows, Mac, Linux, and mobile devices . These online tools provide a convenient way to view MBOX files without the need for platform-specific software installations.
-
-https://www.mbox-viewer.com/
-
-
-TODO:
-
-TRY THIS:
-https://www.howtogeek.com/709718/how-to-open-an-mbox-file-in-mozilla-thunderbird/
-
-
-
-TODO
-
 Her kan man se forbrug delt op på email, fotos og andet:
 
 https://one.google.com/storage/management
-
-
 
 
 
@@ -245,7 +140,30 @@ https://posteo.de/en/help/moving-from-gmail-to-posteo
 
 * Fra Gmail til Proton
 
+Proton har en brugervenlig funktion indbygget, der kan hjælpe med at flytte indholdet fra Gmail over.
+Værktøjet håndterer både emails, kontakter og kalender.
 
+Jeg har afprøvet det på min gamle Gmail konto med ca. 5GB mails.
+
+- konfigurer videresendelse fra Gmail
+  - Log ind på Gmail, gå til Indstillinger -> Videresendelse og POP/IMAP
+    [[file:./gmail-forwarding-settings.png]]
+  - Indtast den nye Proton mail addresse, og følg instruktionerne på siden.  
+  
+- brug værktøjet til flytning
+  - Log ind på Proton
+  - Vælg Indstillinger -> Import via Easy Switch -> Start import
+  - Vælg Gmail
+  - Følg instruktionerne for at give Gmail tilladelse og start import processen.
+    Dette vil kopiere emails, kontakter og kalender(e) fra Gmail til Proton Mail.
+    Et tip er at vælge Arkiv som destination, da man ellers (hvis man har mange emails i Gmail) kan ende med en
+    uoverskuelig indbakke.
+
+    
+
+    
+
+* Le Chat Q/A :noexport:
 
 what do you recommend as the easiest way to migrate from Gmail to Proton?
 
