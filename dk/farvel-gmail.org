@@ -41,14 +41,23 @@ I det følgende beskriver jeg mine erfaringer med det.
 
 Det er en god ide at forberede sig lidt før man giver sig i kast med at flytte sine emails fra
 sin eksisterende postkasse hos Gmail til sin nye postkasse. Det er primært et spørgsmål om plads.
-Man bør i almindelighed overveje følgende
+Man bør i almindelighed overveje
 
 - Hvor meget plads bruger ens nuværende postkasse i Gmail?
 
 - Er der nogle emails i Gmail som fylder meget - måske endda mere end den nye udbyder tillader?
 
+Min gamle Gmail konto havde inden jeg flyttede den ca. 5GB email.
+For at få plads til det på Proton, måtte jeg købe Mail Plus som koster ca. 4 EUR månedligt (billigere hvis man køber 12 måneder).
+På Posteo måtte jeg udvide den tilgængelige plads fra de 2GB først.
+
+Skulle man komme til at sætte en kopiering i gang (se senere afsnit) uden at have sørget for tilstrækkelig plads, betyder det formentlig bare,
+at kopieringen går i stå på et tidspunkt når pladsforbruget kommer over et vist niveau. Og så man man formentlig få genoptaget processen ved
+at sørge for mere plads. Det har jeg dog ikke afprøvet selv.
+
+
 Hvis nogle af dine emails hos Gmail fylder mere end den nye udbyder accepterer, så vil det være en god ide at
-gamme indholdet af disse emails på din egen computer inden du eksporterer fra Gmail.
+gamme indholdet af disse emails på din egen computer.
 
 Gmail tillader emails der fylder op til 50MB inklusive vedhæftinger.
 Posteo har samme øvre grænse, mens Proton har en grænse på 25MB.
@@ -60,13 +69,11 @@ indtast følgende i søgefeltet øverst:
 
 [[file:./gmail-search-by-size.png]]
 
-Sørg for at få gemt indhold og vedhæftede filer fra de emails, hvis størrelse overstiger maksimumsstørrelsen hos den nye
-udbyder, inden du eksporterer postkassen.
-
-
-Her kan man se forbrug delt op på email, fotos og andet:
+Google har også en side hvor man kan se forbrug delt op på email, fotos, filer og andet:
 
 https://one.google.com/storage/management
+
+og her er der også mulighed for at fremfinde store mails med henblik på sletning eller nedhentning.
 
 
 
@@ -111,7 +118,7 @@ Bladr længere ned på siden til du finder afsnittet med 'Mail'.
 Marker boksen til højre, så emails kommer med i eksporten.
 
 
-* Fra Gmail til Posteo :noexport:
+* Fra Gmail til Posteo
 
 what do you recommend as the easiest way to migrate from Gmail to Posteo?
 
@@ -161,9 +168,18 @@ Jeg har afprøvet det på min gamle Gmail konto med ca. 5GB mails.
     Et tip er at vælge Arkiv som destination, da man ellers (hvis man har mange emails i Gmail) kan ende med en
     uoverskuelig indbakke.
 
-    
+        
 
-    
+
+* Konklusioner
+
+Både Posteo og Proton er anbefalelsesværdige alternativer til Gmail.
+
+Om man foretrækker den ene eller den anden, eller evt. en helt tredje er mest en smagssag.
+Da den basale funktionalitet er den samme, har jeg fokuseret på det praktiske vedr. flytning væk fra
+Gmail.
+
+
 
 * Le Chat Q/A :noexport:
 
