@@ -7,7 +7,7 @@
 På https://european-alternatives.eu/ findes et katalog over europæiske alternativer indenfor digitale produkter og tjenester.
 Her findes i skrivende stund 21 alternativer i kategorien 'Email Providers' (email udbydere).
 
-Af de 21 på listen har jeg foreløbig afprøvet Posteo https://en.wikipedia.org/wiki/Posteo  og Proton. https://en.wikipedia.org/wiki/Proton_Mail
+Af de 21 på listen har jeg foreløbig afprøvet [[https://en.wikipedia.org/wiki/Posteo][Posteo]] og [[https://en.wikipedia.org/wiki/Proton_Mail][Proton]].
 Der var ikke nogen speciel grund til at det lige var de to jeg prøvede, det var blot dem jeg først hørte om.
 I denne artikel vil jeg fortælle lidt om min erfaring så vidt med de to udbydere, herunder kopiering af postkasse mv.
 fra Gmail.
@@ -18,10 +18,12 @@ Mindsteprisen med Posteo er pt. 1 EUR pr. måned for 2GB plads. Man kan udvide p
 Proton har et gratis abonnement med 500MB plads. Skal man bruge mere, kan man få 15GB for 4 EUR pr. måned.
 
 Begge har en udmærket webmail. Proton har selv udviklet en mobil-app, modsat Posteo, men i stedet kan man sætte sin Posteo mail konto op i en
-generel mobil-mail app. <mention some>
+generel mobil-mail app, fx. K-9 Mail (men der er flere andre).
 
 
-Proton tilbyder udover mail også opbevaring af filer (samme funktionalitet som Google Drive), ... summarize here
+Proton tilbyder udover mail også opbevaring af filer (samme funktionalitet som Google Drive), kalender, password manager og VPN.
+Via Proton Drive app'en kan man foretage automatisk backup af fotos fra mobile enheder.
+Posteo har en kalender inkluderet i webmailen.
 
 
 Jeg har testet flytning af min eksisterende Gmail konto til både Proton og Posteo.
@@ -85,6 +87,45 @@ og her er der også mulighed for at fremfinde store mails med henblik på sletni
 
 * kommentarer :noexport:
 
+
+how to format a link in Emacs Org?
+
+In Emacs Org mode, you can format links in several ways depending on the type of link you want to create. Here are some common methods:
+
+1. **Basic Link**:
+   - Syntax: `[[link][description]]`
+   - Example: `[[http://example.com][Example Website]]`
+   - This creates a clickable link with the text "Example Website" that points to `http://example.com`.
+
+2. **Internal Link**:
+   - Syntax: `[[#heading]]`
+   - Example: `[[#Introduction]]`
+   - This creates a link to a heading within the same Org document. The heading must have a unique `CUSTOM_ID` property or be automatically assigned an ID by Org.
+
+3. **File Link**:
+   - Syntax: `[[file:path/to/file][description]]`
+   - Example: `[[file:document.pdf][Document]]`
+   - This creates a link to a file on your local filesystem.
+
+4. **Email Link**:
+   - Syntax: `[[mailto:email@example.com][Send Email]]`
+   - Example: `[[mailto:email@example.com][Send Email]]`
+   - This creates a mailto link that opens your default email client with the recipient field filled.
+
+5. **Custom Link**:
+   - Syntax: `[[link][description]]`
+   - Example: `[[doi:10.1000/xyz123][Paper Title]]`
+   - You can define custom link types in your Org configuration.
+
+6. **Inline Images**:
+   - Syntax: `[[file:path/to/image.png]]`
+   - Example: `[[file:image.png]]`
+   - This displays an image directly in the Org document.
+
+To insert a link, you can also use the Org mode command `org-insert-link` (bound to `C-c C-l` by default), which prompts you for the link type and description. This command helps ensure the link is correctly formatted.
+
+
+
 Store filer
 https://lifehacker.com/find-the-large-attachments-eating-up-your-gmail-space-w-5958583
 
@@ -125,6 +166,17 @@ Marker boksen til højre, så emails kommer med i eksporten.
 
 
 * Fra Gmail til Posteo
+
+
+- konfigurer videresendelse fra Gmail til Posteo
+
+- brug Posteos Migration Service til at kopiere postkasse, kontakter og kalendre fra Gmail
+
+  TODO test om dette virker?
+
+  https://posteo.de/en/help/setup-posteo-migration-service
+  
+
 
 what do you recommend as the easiest way to migrate from Gmail to Posteo?
 
