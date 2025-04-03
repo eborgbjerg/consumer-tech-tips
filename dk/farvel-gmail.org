@@ -1,32 +1,42 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 
-#+TITLE: Farvel til Gmail
+#+TITLE: Skift til europæisk email udbyder
+#+AUTHOR:
+
+
+TODO
+rewrite: not specific to Gmail, BUT my experience is the illustrative
 
 
 På https://european-alternatives.eu/ findes et katalog over europæiske alternativer indenfor digitale produkter og tjenester.
 Her findes i skrivende stund 21 alternativer i kategorien 'Email Providers' (email udbydere).
 
-Af de 21 på listen har jeg foreløbig afprøvet [[https://en.wikipedia.org/wiki/Posteo][Posteo]] og [[https://en.wikipedia.org/wiki/Proton_Mail][Proton]].
-Der var ikke nogen speciel grund til at det lige var de to jeg prøvede, det var blot dem jeg først hørte om.
-I denne artikel vil jeg fortælle lidt om min erfaring så vidt med de to udbydere, herunder kopiering af postkasse mv.
-fra Gmail.
+Jeg har afprøvet [[https://en.wikipedia.org/wiki/Posteo][Posteo]] og [[https://en.wikipedia.org/wiki/Proton_Mail][Proton]].
+Der var ikke nogen særlig grund til at det lige var de to, det var blot dem jeg først hørte om.
 
-Posteo har en prøveperiode på 14 dage, hvor man får pengene tilbage hvis man ikke ønsker at fortsætte derefter.
-Mindsteprisen med Posteo er pt. 1 EUR pr. måned for 2GB plads. Man kan udvide pladsen op til højst 20GB, og betaler så mere afhængigt af mængden af plads.
+Jeg vil her fortælle lidt om mine erfaringer så vidt, med speciel vægt på import fra tidligere email udbyder.
 
-Proton har et gratis abonnement med 500MB plads. Skal man bruge mere, kan man få 15GB for 4 EUR pr. måned.
+Posteo er baseret i Berlin, har tilbudt email tjeneste siden 2009.
+De tilbyder en prøveperiode på 14 dage, hvor man får pengene tilbage, hvis man ikke ønsker at fortsætte derefter.
+Mindsteprisen er pt. 1 EUR pr. måned for 2GB plads. Man kan udvide pladsen op til højst 20GB, og betaler så mere afhængigt af mængden af plads.
 
-Begge har en udmærket webmail. Proton har selv udviklet en mobil-app, modsat Posteo, men i stedet kan man sætte sin Posteo mail konto op i en
-generel mobil-mail app, fx. K-9 Mail (men der er flere andre).
+Proton har hovedsæde i Geneve, og blev grundlagt i 2014.
+Her kan man få et gratis abonnement med 500MB plads. Skal man bruge mere (det skal de fleste jo nok), kan man få 15GB for 4 EUR pr. måned.
+
+Begge udbydere har en udmærket webmail.
+
+Proton tilbyder udover email også opbevaring af filer (samme funktionalitet som Google Drive), kalender, password manager og VPN.
+Alt tilgængeligt på mobile enheder med iOS eller Android via Proton's egenudviklede apps.
+Via Proton Drive app'en kan man dertil indstille automatisk backup af fotos fra mobile enheder.
+
+Posteo har, udover kalender, ikke funktionalitet udover email.
+De har ikke udviklet egne apps, men i stedet kan man sætte sin Posteo konto op i en
+generel mobil-mail app, eksempelvis K-9 Mail (Thunderbird på mobil).
+Man kan selvflg. også bare bruge webmail grænsefladen.
 
 
-Proton tilbyder udover mail også opbevaring af filer (samme funktionalitet som Google Drive), kalender, password manager og VPN.
-Via Proton Drive app'en kan man foretage automatisk backup af fotos fra mobile enheder.
-Posteo har en kalender inkluderet i webmailen.
-
-
-Jeg har testet flytning af min eksisterende Gmail konto til både Proton og Posteo.
+Jeg har testet import af min eksisterende mail konto til både Proton og Posteo.
 I det følgende beskriver jeg mine erfaringer med det.
 
 
@@ -39,53 +49,81 @@ I det følgende beskriver jeg mine erfaringer med det.
 
 
 
-* Før flytningen
+* Før import til ny email udbyder
 
-Det er en god ide at forberede sig lidt før man giver sig i kast med at flytte sine emails fra
-sin eksisterende postkasse hos Gmail til sin nye postkasse. Det er primært et spørgsmål om plads.
-Man bør i almindelighed overveje
+Før man giver sig i kast med at importere fra sin gamle postkasse, er der et par ting man bør overveje.
 
-- Hvor meget plads bruger ens nuværende postkasse i Gmail?
+- Hvor meget plads bruger ens nuværende postkasse?
 
-- Er der nogle emails i Gmail som fylder meget - måske endda mere end den nye udbyder tillader?
+- Har man nogle emails som fylder meget - måske endda mere end den nye udbyder tillader?
 
-Min gamle Gmail konto havde inden jeg flyttede den ca. 5GB email.
-For at få plads til det på Proton, måtte jeg købe Mail Plus som koster ca. 4 EUR månedligt (billigere hvis man køber 12 måneder).
+  
+Min gamle mail konto (på Gmail) havde, inden jeg flyttede den, ca. 4GB email.
+Det kunne jeg se på denne side
+
+https://one.google.com/storage/management
+
+hvor forbrug er delt op på email, fotos, filer og andet.
+
+
+For at få plads til det på Proton, måtte jeg købe Proton Mail Plus som koster ca. 4 EUR månedligt (det er billigere hvis man køber 12 måneder).
+
 På Posteo måtte jeg udvide den tilgængelige plads fra de 2GB først.
 
-Posteo har en smart funktion hvor man kan justere den tilgængelige plads op og ned efter behov:
+Posteo har iøvrigt en smart funktion, hvor man kan justere den tilgængelige plads op og ned efter behov:
 
 [[file:./posteo-adjust-space.png]]
 
 
+Hvis nogle af dine emails fylder mere end den nye udbyder accepterer, så kan det sagtens være at de ikke kommer igennem
+importen.
 
-Skulle man komme til at sætte en kopiering i gang (se senere afsnit) uden at have sørget for tilstrækkelig plads, betyder det formentlig bare,
-at kopieringen går i stå på et tidspunkt når pladsforbruget kommer over et vist niveau. Og så man man formentlig få genoptaget processen ved
-at sørge for mere plads. Det har jeg dog ikke afprøvet selv.
+I så fald vil det være en god ide at gemme indholdet af disse emails på din egen computer (kan gøres før eller efter importen).
 
+Posteo tillader 50MB, mens Proton har en grænse på 25MB.
 
-Hvis nogle af dine emails hos Gmail fylder mere end den nye udbyder accepterer, så vil det være en god ide at
-gamme indholdet af disse emails på din egen computer.
-
-Gmail tillader emails der fylder op til 50MB inklusive vedhæftinger.
-Posteo har samme øvre grænse, mens Proton har en grænse på 25MB.
-
-For at finde emails i Gmail der fylder mere end fx. 25MB, gå ind i Gmail i en browser, og
-indtast følgende i søgefeltet øverst:
+Hvis man kommer fra Gmail, kan man finde emails der fylder mere end fx. 25MB, ved at indtaste
 
 ~size:25M~
 
+i søgefeltet:
+
 [[file:./gmail-search-by-size.png]]
 
-Google har også en side hvor man kan se forbrug delt op på email, fotos, filer og andet:
-
-https://one.google.com/storage/management
-
-og her er der også mulighed for at fremfinde store mails med henblik på sletning eller nedhentning.
+Den før nævnte side https://one.google.com/storage/management kan man også bruges til at fremfinde store mails, med henblik på sletning eller nedhentning.
 
 
 
 * kommentarer :noexport:
+
+Hi, the Proton Easy Switch migration finished an import of my Gmail account to Proton mail account. Proton sent an email with a CSV file reporting numbers of found messages, imported messages, duplicate messages and failed messages per source "folder". Looking in Google account, on https://one.google.com/storage/management  it says I use 3.91 GB for Gmail.
+Looking in Proton after the migration, it says I have used 2.26 GB.
+The CSV file reports a small number of failed messages, but these seem to be very small ones, either spam or messages with "unknown sender".
+I wonder what to make of this?
+
+The discrepancy in storage usage between your Gmail and Proton Mail accounts after migration can be attributed to several factors:
+
+1. **Compression and Encryption**: Proton Mail uses end-to-end encryption, which can affect the size of stored emails. Encryption might slightly alter the storage requirements compared to the original unencrypted data in Gmail 
+.
+
+2. **Duplicate and Spam Messages**: Proton's Easy Switch tool does not import duplicate messages or messages labeled as spam or trash. This can result in a smaller storage footprint on Proton Mail compared to Gmail, which might still contain these items 
+.
+
+3. **Attachment Handling**: The way attachments are stored and counted might differ between the two services. Proton Mail might optimize storage for attachments differently than Gmail.
+
+4. **Email Formatting**: Differences in how emails are formatted and stored (e.g., plain text vs. HTML) can also contribute to variations in storage usage.
+
+5. **Conversation View**: Gmail groups related messages into conversations, which can sometimes make it appear as though there are fewer individual emails. Proton Mail might handle this differently, potentially affecting the storage calculation 
+.
+
+6. **Metadata and Indexing**: Proton Mail might store additional metadata or indexing information that is not present in Gmail, which could contribute to the storage usage.
+
+The small number of failed messages reported in the CSV file, especially if they are spam or have unknown senders, is unlikely to account for the significant difference in storage usage. The primary factors are likely related to how Proton Mail handles encryption, duplicates, and email formatting.
+
+https://proton.me/support/troubleshooting-easy-switch
+
+https://www.reddit.com/r/ProtonMail/comments/zvi89f/easy_switch_import_size/
+
 
 
 how to format a link in Emacs Org?
@@ -165,7 +203,7 @@ Bladr længere ned på siden til du finder afsnittet med 'Mail'.
 Marker boksen til højre, så emails kommer med i eksporten.
 
 
-* Fra Gmail til Posteo
+* Import til Posteo
 
 
 - konfigurer videresendelse fra Gmail til Posteo
@@ -211,7 +249,7 @@ https://posteo.de/en/site/faq
 https://posteo.de/en/help/moving-from-gmail-to-posteo
 
 
-* Fra Gmail til Proton
+* Import til Proton
 
 Proton har en brugervenlig funktion indbygget, der kan hjælpe med at flytte indholdet fra Gmail over.
 Værktøjet håndterer både emails, kontakter og kalender.
