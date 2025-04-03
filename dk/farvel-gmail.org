@@ -207,6 +207,8 @@ Marker boksen til højre, så emails kommer med i eksporten.
 Proton har en brugervenlig funktion indbygget, der kan importere emails, kontakter og kalender.
 Det findes i webmail under Indstillinger -> Import via Easy Switch.
 
+[[file:proton-import-from-gmail.png]]
+
 Inden man starter import processen, er det en god ide at sætte videresendelse fra ens gamle postkasse op,
 så mails der modtages efter importen slutter også kommer over i den nye postkasse.
 
