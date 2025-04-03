@@ -251,27 +251,22 @@ https://posteo.de/en/help/moving-from-gmail-to-posteo
 
 * Import til Proton
 
-Proton har en brugervenlig funktion indbygget, der kan hjælpe med at flytte indholdet fra Gmail over.
-Værktøjet håndterer både emails, kontakter og kalender.
+Proton har en brugervenlig funktion indbygget, der kan importere emails, kontakter og kalender.
+Det findes i webmail under Indstillinger -> Import via Easy Switch.
 
-Jeg har afprøvet det på min gamle Gmail konto med ca. 5GB mails.
+Inden man starter import processen, er det en god ide at sætte videresendelse fra ens gamle postkasse op,
+så mails der modtages efter importen slutter også kommer over i den nye postkasse.
 
-- konfigurer videresendelse fra Gmail
-  - Log ind på Gmail, gå til Indstillinger -> Videresendelse og POP/IMAP
-    [[file:./gmail-forwarding-settings.png]]
-  - Indtast den nye Proton mail addresse, og følg instruktionerne på siden.  
-  
-- brug værktøjet til flytning
-  - Log ind på Proton
-  - Vælg Indstillinger -> Import via Easy Switch -> Start import
-  - Vælg Gmail
-    [[file:./proton-import-from-gmail.png]]
-  - Følg instruktionerne for at give Gmail tilladelse og start import processen.
-    Dette vil kopiere emails, kontakter og kalender(e) fra Gmail til Proton Mail.
-    Et tip er at vælge Arkiv som destination, da man ellers (hvis man har mange emails i Gmail) kan ende med en
-    uoverskuelig indbakke. Mails som er i indbakken på Gmail lander stadig i indbakken på Proton.
+Hvis man (som jeg) flytter fra Gmail, kan det gøres direkte på Easy Switch siden.
+Ellers må man kigge i sin gamle udbyders dokumentation for at se hvordan man sætter videresendelse op.
 
-        
+Selve importen er lettest hvis man kommer fra Gmail, Outlook eller Yahoo.
+Gør man ikke det, må man selv sætte en specifik adgangskode op på den gamle mail konto (og evt. åbne for anvendelse af IMAP).
+
+En nyttig detalje er at Proton automatisk mærker de importerede mails med en speciel unik etiket.
+Så hvis man efterfølgende fortryder noget ved importen, er det relativt nemt at slette alle de importerede mails og starte forfra igen.
+
+
 
 
 * Konklusioner
