@@ -5,17 +5,13 @@
 #+AUTHOR:
 
 
-TODO
-rewrite: not specific to Gmail, BUT my experience is the illustrative
-
-
 På https://european-alternatives.eu/ findes et katalog over europæiske alternativer indenfor digitale produkter og tjenester.
 Her findes i skrivende stund 21 alternativer i kategorien 'Email Providers' (email udbydere).
 
 Jeg har afprøvet [[https://en.wikipedia.org/wiki/Posteo][Posteo]] og [[https://en.wikipedia.org/wiki/Proton_Mail][Proton]].
 Der var ikke nogen særlig grund til at det lige var de to, det var blot dem jeg først hørte om.
 
-Jeg vil her fortælle lidt om mine erfaringer så vidt, med speciel vægt på import fra tidligere email udbyder.
+Jeg vil her fortælle lidt om mine erfaringer så vidt - med speciel vægt på import fra tidligere email udbyder.
 
 Posteo er baseret i Berlin, har tilbudt email tjeneste siden 2009.
 De tilbyder en prøveperiode på 14 dage, hvor man får pengene tilbage, hvis man ikke ønsker at fortsætte derefter.
@@ -25,6 +21,9 @@ Proton har hovedsæde i Geneve, og blev grundlagt i 2014.
 Her kan man få et gratis abonnement med 500MB plads. Skal man bruge mere (det skal de fleste jo nok), kan man få 15GB for 4 EUR pr. måned.
 
 Begge udbydere har en udmærket webmail.
+
+Allerførst vil jeg notere, at Posteo kun pt. kun findes med engelsk, tysk og fransk brugergrænseflade.
+Proton er derimod oversat til dansk.
 
 Proton tilbyder udover email også opbevaring af filer (samme funktionalitet som Google Drive), kalender, password manager og VPN.
 Alt tilgængeligt på mobile enheder med iOS eller Android via Proton's egenudviklede apps.
@@ -220,68 +219,65 @@ Gør man ikke det, må man selv sætte en specifik adgangskode op på den gamle 
 En nyttig detalje er at Proton automatisk mærker de importerede mails med en speciel unik etiket.
 Så hvis man efterfølgende fortryder noget ved importen, er det relativt nemt at slette alle de importerede mails og starte forfra igen.
 
-TODO:
-skriv om konkret erfaring
-tid for import
-4GB -> 2.2GB
-CSV fil...
+Mine ca. 4GB af emails, kalender og adressebog tog ca. 15 timer at kopiere over. Det tror jeg er ganske hurtigt for den slags øvelser.
+Da importen var færdig, sendte Proton mig en mail med en oversigt over importen, herunder pr. folder: antal fundne mails, antal importerede mails,
+antal mails der var duplikerede mellem foldere i den gamle postkasse, samt mails der blev afvist af importen.
+En håndfuld mails blev afvist pga. "ukendt afsender" og/eller at det tydeligvis var spam.
+
+Jeg bemærkede også at det angivne pladsforbrug efter import var noget lavere hos Proton - 2.3GB - end det var hos Gmail (3.9GB).
+Det skyldes formentlig dels at Proton har krypteret/komprimeret indholdet, dels at Proton har identificeret mange mails som duplikater af
+andre mails.
 
 
 * Import til Posteo
 
+Ligesom ved Proton Mail, er det en god ide at sætte videresendelse fra ens gamle postkasse op forlods.
+Man kan kigge i sin gamle udbyders dokumentation for at se hvordan man sætter videresendelse op.
+Eller man kan bruge en funktion under Settings -> Email Collector der sætter det op.
 
-- konfigurer videresendelse fra Gmail til Posteo
+Posteos webmail indeholder en funktion "Migration Service" som kan bruges til at importere emails mm.
+Det findes i webmail under Settings -> Posteo migration service.
 
-- brug Posteos Migration Service til at kopiere postkasse, kontakter og kalendre fra Gmail
+[[file:posteo-migration-service.png]]
 
-  TODO test om dette virker?
+Hvis man kommer fra en mail udbyder der har 2-faktor autentificering, som fx. Gmail har, så
+skal man først have lavet et specifikt app-password, som så er det der her skal indtastes.
 
-  https://posteo.de/en/help/setup-posteo-migration-service
-  
+Efter indtastning af app password, klik på "Proceed to folder selection".
+Der går lidt tid, hvorefter værktøjet viser en liste med foldere fra den gamle postkasse, som man
+kan vælge at medtage i migreringen.
+Man kan også vælge at importere adressebog, men i så fald kræves der endnu et password (jeg gætter på det kræver endnu et
+app-password, men jeg prøvede det ikke).
+
+Importen er sat op til at placere mails i en særskilt ny folder, så der ikke er nogen risiko for at få blandet
+de importerede mails sammen med andre ting man måtte have i Posteo.
+
+Herefter klikker man på knappen der starter importen, og nogle øjeblikke senere begynder mails at strømme ind i migrerings folderen.
 
 
-what do you recommend as the easiest way to migrate from Gmail to Posteo?
+* Alternativ import via email klient
 
-To migrate from Gmail to Posteo, you can follow these steps:
+Som alternativ til de værktøjer der medfølger i Proton hhv. Posteo til import fra gammel postkasse, skal det nævnes at man
+også kan gøre det ved at sætte begge mail addresser op i en email klient på PC, fx. Thunderbird.
+Fremgangsmåden er omtrent
 
-TODO:
+- Sæt begge mail addresser op i email klienten.
 
-flyt afsnit om forwarding til før de P+P specifikke afsnit, da det er samme.
+- Indlæs al mail for begge mail addresser i klienten.
 
-
-
-1. **Use the Posteo Migration Service**:
-   - Posteo offers a migration service that allows you to transfer your emails, contacts, and calendars from Gmail to Posteo. This service supports IMAP, making it straightforward to migrate your data.
-   - To use the migration service, log in to your Posteo account, go to Settings → All settings → Account → Import via Easy Switch → Start new import, and select Gmail as the service to import from. Follow the prompts to complete the migration .
-
-2. **Manual Migration Using Thunderbird**:
-   - If you prefer a manual approach or if the migration service does not support certain features, you can use an email client like Mozilla Thunderbird to transfer your emails.
-   - Set up both your Gmail and Posteo accounts in Thunderbird using IMAP.
-   - Create corresponding folders in your Posteo account for each Gmail label/folder.
-   - Drag and drop emails from your Gmail folders to the corresponding Posteo folders in Thunderbird. This process can be done in batches to manage large volumes of emails .
-
-3. **Forwarding Emails**:
-   - Set up email forwarding from your Gmail account to your Posteo account to ensure you don't miss any new emails during the transition.
-   - In Gmail, go to Settings → Forwarding and POP/IMAP → Add a forwarding address, and enter your Posteo email address. Follow the verification steps to complete the setup .
-
-By following these methods, you can efficiently migrate your data from Gmail to Posteo while ensuring a smooth transition.
-
-https://posteo.de/en/help/setup-posteo-migration-service
-
-https://posteo.de/en/site/faq
-
-https://posteo.de/en/help/moving-from-gmail-to-posteo
+- Kopier - fx. ved Drag & Drop - de ønskede mails fra gammel til ny postkasse.
 
 
 * Konklusioner
 
-Både Posteo og Proton er anbefalelsesværdige alternativer til Gmail.
+Både Posteo og Proton er solide og funktionsdygtige email udbydere.
 
-Hvis man ønsker funktionalitet udover ren email og kalender, bør man checke Proton ud.
-Hvis man ikke ønsker mere end blot den simple email og kalender funktionalitet, så kan Posteo være en fin
-løsning.
+Hvis man ønsker funktionalitet udover ren email og kalender, bør man checke Proton ud. Brugergrænsefladen er meget behændig og moderne.
 
-Jeg har testet begge løsninger specifikt mht. import af min eksisterende Gmail konto med ca. 5GB email indhold, ca. 75 kontakter og kalender.
+Hvis man ikke ønsker mere end simpel email og kalender funktionalitet, så kan Posteo også være en fin
+løsning. Bruger grænsefladen er ikke så poleret som ved Proton.
+
+Begge udbydere har værktøjer der gør det nogenlunde nemt at få kopieret emails mv. over fra gammel udbyder.
 
 
 * Le Chat Q/A :noexport:
