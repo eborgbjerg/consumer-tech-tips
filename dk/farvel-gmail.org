@@ -203,6 +203,30 @@ Bladr længere ned på siden til du finder afsnittet med 'Mail'.
 Marker boksen til højre, så emails kommer med i eksporten.
 
 
+* Import til Proton
+
+Proton har en brugervenlig funktion indbygget, der kan importere emails, kontakter og kalender.
+Det findes i webmail under Indstillinger -> Import via Easy Switch.
+
+Inden man starter import processen, er det en god ide at sætte videresendelse fra ens gamle postkasse op,
+så mails der modtages efter importen slutter også kommer over i den nye postkasse.
+
+Hvis man (som jeg) flytter fra Gmail, kan det gøres direkte på Easy Switch siden.
+Ellers må man kigge i sin gamle udbyders dokumentation for at se hvordan man sætter videresendelse op.
+
+Selve importen er lettest hvis man kommer fra Gmail, Outlook eller Yahoo.
+Gør man ikke det, må man selv sætte en specifik adgangskode op på den gamle mail konto (og evt. åbne for anvendelse af IMAP).
+
+En nyttig detalje er at Proton automatisk mærker de importerede mails med en speciel unik etiket.
+Så hvis man efterfølgende fortryder noget ved importen, er det relativt nemt at slette alle de importerede mails og starte forfra igen.
+
+TODO:
+skriv om konkret erfaring
+tid for import
+4GB -> 2.2GB
+CSV fil...
+
+
 * Import til Posteo
 
 
@@ -247,26 +271,6 @@ https://posteo.de/en/help/setup-posteo-migration-service
 https://posteo.de/en/site/faq
 
 https://posteo.de/en/help/moving-from-gmail-to-posteo
-
-
-* Import til Proton
-
-Proton har en brugervenlig funktion indbygget, der kan importere emails, kontakter og kalender.
-Det findes i webmail under Indstillinger -> Import via Easy Switch.
-
-Inden man starter import processen, er det en god ide at sætte videresendelse fra ens gamle postkasse op,
-så mails der modtages efter importen slutter også kommer over i den nye postkasse.
-
-Hvis man (som jeg) flytter fra Gmail, kan det gøres direkte på Easy Switch siden.
-Ellers må man kigge i sin gamle udbyders dokumentation for at se hvordan man sætter videresendelse op.
-
-Selve importen er lettest hvis man kommer fra Gmail, Outlook eller Yahoo.
-Gør man ikke det, må man selv sætte en specifik adgangskode op på den gamle mail konto (og evt. åbne for anvendelse af IMAP).
-
-En nyttig detalje er at Proton automatisk mærker de importerede mails med en speciel unik etiket.
-Så hvis man efterfølgende fortryder noget ved importen, er det relativt nemt at slette alle de importerede mails og starte forfra igen.
-
-
 
 
 * Konklusioner
