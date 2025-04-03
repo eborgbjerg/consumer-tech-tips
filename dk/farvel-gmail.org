@@ -240,10 +240,11 @@ Jeg har afprøvet det på min gamle Gmail konto med ca. 5GB mails.
 
 Både Posteo og Proton er anbefalelsesværdige alternativer til Gmail.
 
-Om man foretrækker den ene eller den anden, eller evt. en helt tredje er mest en smagssag.
-Da den basale funktionalitet er den samme, har jeg fokuseret på det praktiske vedr. flytning væk fra
-Gmail.
+Hvis man ønsker funktionalitet udover ren email og kalender, bør man checke Proton ud.
+Hvis man ikke ønsker mere end blot den simple email og kalender funktionalitet, så kan Posteo være en fin
+løsning.
 
+Jeg har testet begge løsninger specifikt mht. import af min eksisterende Gmail konto med ca. 5GB email indhold, ca. 75 kontakter og kalender.
 
 
 * Le Chat Q/A :noexport:
