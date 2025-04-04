@@ -2,7 +2,7 @@
 #+OPTIONS: num:nil
 
 #+TITLE: Skift til europæisk email udbyder
-#+AUTHOR:
+#+AUTHOR: Ejner Borgbjerg
 
 
 På https://european-alternatives.eu/ findes et katalog over europæiske alternativer indenfor digitale produkter og tjenester.
@@ -277,8 +277,9 @@ Fremgangsmåden er omtrent denne
 
 - Kopier - fx. ved Drag & Drop - de ønskede mails fra gammel til ny postkasse.
 
-Det er selvfølgelig en ret omstændelig proces. Men den kan måske være brugbar i nogle tilfælde, fx. hvis man vil skifte til en udbyder
-der ikke har et værktøj til import fra gammel postkasse, eller måske hvis man af en eller anden grund ikke stoler på et sådant værktøj.
+Det er selvfølgelig en ret omstændelig proces (især hvis man har mange mails man vil kopiere over).
+Men den kan måske være brugbar i nogle tilfælde, fx. hvis man vil skifte til en udbyder
+der ikke har et værktøj til import fra gammel postkasse, eller hvis man af en eller anden grund ikke stoler på et sådant værktøj.
 
 * Konklusioner
 
