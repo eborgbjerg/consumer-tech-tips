@@ -281,6 +281,20 @@ Det er selvfølgelig en ret omstændelig proces (især hvis man har mange mails 
 Men den kan måske være brugbar i nogle tilfælde, fx. hvis man vil skifte til en udbyder
 der ikke har et værktøj til import fra gammel postkasse, eller hvis man af en eller anden grund ikke stoler på et sådant værktøj.
 
+
+* Efter importen
+
+Med videresendelse fra gammel postkasse til den nye, kan man i princippet slette alle mails i den gamle postkasse - og herefter
+nøjes med at læse email i den nye postkasse.
+
+Hvis man helt vil slette selve den gamle mail konto, skal man huske
+
+- At familie, venner, myndigheder mv. skal have besked om den nye mail adresse.
+
+- Man kan evt. have brugt den gamle email som login metode på forskellige websites og/eller apps.
+  Om nødvendigt må man skifte til en anden login metode.
+  
+
 * Konklusioner
 
 Både Posteo og Proton er solide og funktionsdygtige email udbydere.
