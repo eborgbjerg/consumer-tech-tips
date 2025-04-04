@@ -278,7 +278,7 @@ Fremgangsmåden er omtrent denne
 - Kopier - fx. ved Drag & Drop - de ønskede mails fra gammel til ny postkasse.
 
 Det er selvfølgelig en ret omstændelig proces. Men den kan måske være brugbar i nogle tilfælde, fx. hvis man vil skifte til en udbyder
-der ikke har et værktøj til import fra gammel postkasse, eller måske hvis man ikke stoler på et sådant værktøj.
+der ikke har et værktøj til import fra gammel postkasse, eller måske hvis man af en eller anden grund ikke stoler på et sådant værktøj.
 
 * Konklusioner
 
