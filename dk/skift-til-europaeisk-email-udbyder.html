@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2025-04-04 Fri 19:51 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Skift til europæisk email udbyder</title>
+<meta name="author" content="Ejner Borgbjerg" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Skift til europæisk email udbyder</h1>
+<p>
+På <a href="https://european-alternatives.eu/">https://european-alternatives.eu/</a> findes et katalog over europæiske alternativer indenfor digitale produkter og tjenester.
+Her findes i skrivende stund 21 alternativer i kategorien 'Email Providers' (email udbydere).
+</p>
+
+<p>
+Jeg har afprøvet <a href="https://en.wikipedia.org/wiki/Posteo">Posteo</a> og <a href="https://en.wikipedia.org/wiki/Proton_Mail">Proton</a>.
+Der var ikke nogen særlig grund til at det lige var de to, det var blot dem jeg først hørte om.
+</p>
+
+<p>
+Jeg vil her fortælle lidt om mine erfaringer, med speciel vægt på import fra tidligere email udbyder.
+</p>
+
+<p>
+Posteo er baseret i Berlin, og har tilbudt email tjeneste siden 2009.
+De tilbyder en prøveperiode på 14 dage, hvor man får pengene tilbage, hvis man ikke ønsker at fortsætte derefter.
+Mindsteprisen er pt. 1 EUR pr. måned for 2GB plads. Man kan udvide pladsen op til højst 20GB, og betaler så mere afhængigt af mængden af plads.
+</p>
+
+<p>
+Proton har hovedsæde i Geneve, og blev grundlagt i 2014.
+Her kan man få et gratis abonnement med 500MB plads. Skal man bruge mere (det skal de fleste jo nok), kan man få 15GB for 4 EUR pr. måned.
+</p>
+
+<p>
+Begge udbydere har en udmærket webmail.
+</p>
+
+<p>
+Det skal bemærkes, at Posteo kun pt. kun findes med engelsk, tysk og fransk brugergrænseflade.
+Proton's brugergrænseflade er derimod oversat til dansk.
+</p>
+
+<p>
+Proton tilbyder udover email også opbevaring af filer (samme funktionalitet som Google Drive), kalender, password manager og VPN.
+Alt tilgængeligt på mobile enheder med iOS eller Android via Proton's egenudviklede apps.
+Via Proton Drive app'en kan man dertil indstille automatisk backup af fotos fra mobile enheder.
+</p>
+
+<p>
+Posteo har ikke funktionalitet udover email, kalender og addressebog.
+De har ikke udviklet egne apps, men i stedet kan man sætte sin Posteo konto op i en
+generel mobil-mail app, eksempelvis K-9 Mail (Thunderbird på mobil).
+Man kan selvflg. også bare bruge webmail grænsefladen.
+</p>
+
+
+<p>
+Jeg har testet import af min eksisterende mail konto til både Proton og Posteo.
+I det følgende beskriver jeg mine erfaringer med det.
+</p>
+
+
+<div id="outline-container-org1797b04" class="outline-2">
+<h2 id="org1797b04">Før import til ny email udbyder</h2>
+<div class="outline-text-2" id="text-org1797b04">
+<p>
+Før man giver sig i kast med at importere fra sin gamle postkasse, er der et par ting man bør overveje.
+</p>
+
+<ul class="org-ul">
+<li>Hvor meget plads bruger ens nuværende postkasse?</li>
+
+<li>Har man nogle emails som fylder meget - måske endda mere end den nye udbyder tillader?</li>
+</ul>
+
+
+<p>
+Min gamle mail konto (på Gmail) havde, inden jeg flyttede den, ca. 4GB email.
+Det kunne jeg se på denne side
+</p>
+
+<p>
+<a href="https://one.google.com/storage/management">https://one.google.com/storage/management</a>
+</p>
+
+<p>
+hvor forbrug er delt op på email, fotos, filer og andet.
+</p>
+
+
+<p>
+For at få plads til det på Proton, måtte jeg købe Proton Mail Plus som koster ca. 4 EUR månedligt (det er billigere hvis man køber 12 måneder).
+</p>
+
+<p>
+På Posteo måtte jeg udvide den tilgængelige plads fra de 2GB først.
+</p>
+
+<p>
+Posteo har iøvrigt en smart funktion, hvor man kan justere den tilgængelige plads op og ned efter behov:
+</p>
+
+
+<div id="orgae8a440" class="figure">
+<p><img src="./posteo-adjust-space.png" alt="posteo-adjust-space.png" />
+</p>
+</div>
+
+
+<p>
+Hvis nogle af dine emails fylder mere end den nye udbyder accepterer, så kan det sagtens være at de ikke kommer igennem
+importen.
+</p>
+
+<p>
+I så fald vil det være en god ide at gemme indholdet af disse emails på din egen computer (kan gøres før eller efter importen).
+</p>
+
+<p>
+Posteo tillader 50MB, mens Proton har en grænse på 25MB.
+</p>
+
+<p>
+Hvis man kommer fra Gmail, kan man finde emails der fylder mere end fx. 25MB, ved at indtaste
+</p>
+
+<p>
+<code>size:25M</code>
+</p>
+
+<p>
+i søgefeltet:
+</p>
+
+
+<div id="org4498cf1" class="figure">
+<p><img src="./gmail-search-by-size.png" alt="gmail-search-by-size.png" />
+</p>
+</div>
+
+<p>
+Den før nævnte side <a href="https://one.google.com/storage/management">https://one.google.com/storage/management</a> kan også bruges til at fremfinde store mails, med henblik på sletning eller nedhentning.
+</p>
+</div>
+</div>
+
+
+
+<div id="outline-container-orgdfd7731" class="outline-2">
+<h2 id="orgdfd7731">Import til Proton</h2>
+<div class="outline-text-2" id="text-orgdfd7731">
+<p>
+Proton har en brugervenlig funktion indbygget, der kan importere emails, kontakter og kalender fra anden email udbyder.
+Det findes i webmail under Indstillinger -&gt; Import via Easy Switch.
+</p>
+
+
+<div id="orgfbe5941" class="figure">
+<p><img src="proton-easy-switch.png" alt="proton-easy-switch.png" />
+</p>
+</div>
+
+<p>
+Inden man starter import processen, er det en god ide at sætte videresendelse fra ens gamle postkasse op,
+så mails der modtages efter importen slutter også kommer over i den nye postkasse.
+</p>
+
+<p>
+Hvis man (som jeg) flytter fra Gmail, kan det gøres direkte på Easy Switch siden.
+Ellers må man kigge i sin gamle udbyders dokumentation for at se hvordan man sætter videresendelse op.
+</p>
+
+<p>
+Selve importen er lettest hvis man kommer fra Gmail, Outlook eller Yahoo.
+Ellers må man selv sætte en specifik adgangskode op på den gamle mail konto (og evt. åbne for anvendelse af IMAP).
+</p>
+
+<p>
+En nyttig detalje er at Proton automatisk mærker de importerede mails med en speciel unik etiket.
+Så hvis man efterfølgende fortryder noget ved importen, er det relativt nemt at slette alle de importerede mails og starte forfra igen.
+</p>
+
+<p>
+Mine ca. 4GB af emails, kalender og adressebog tog ca. 15 timer at kopiere over. Det tror jeg er ganske hurtigt for den slags øvelser.
+Da importen var færdig, sendte Proton mig en mail med en oversigt over importen, herunder pr. folder: antal fundne mails, antal importerede mails,
+antal mails der var duplikerede mellem foldere i den gamle postkasse, samt mails der blev afvist af importen.
+En håndfuld mails blev afvist pga. "ukendt afsender" og/eller at det tydeligvis var spam.
+</p>
+
+<p>
+Min adressebog kom ligeledes fint over. Jeg har ikke brugt Google kalenderen meget, men de få aftaler jeg har kom rigtigt over.
+</p>
+
+<p>
+Jeg bemærkede også at det angivne pladsforbrug efter import var noget lavere hos Proton - 2.3GB - end det var hos Gmail (3.9GB).
+Det skyldes formentlig dels at Proton har krypteret/komprimeret indholdet, dels at Proton har identificeret mange mails som duplikater af
+andre mails.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org97ecbfe" class="outline-2">
+<h2 id="org97ecbfe">Import til Posteo</h2>
+<div class="outline-text-2" id="text-org97ecbfe">
+<p>
+Ligesom ved Proton Mail, er det en god ide at sætte videresendelse fra ens gamle postkasse op forlods.
+Man kan kigge i sin gamle udbyders dokumentation for at se hvordan man sætter videresendelse op.
+Eller man kan bruge en funktion under Settings -&gt; Email Collector der sætter det op.
+</p>
+
+<p>
+Posteos webmail indeholder en funktion "Migration Service" som kan bruges til at importere emails mm.
+Det findes i webmail under Settings -&gt; Posteo migration service.
+</p>
+
+
+<div id="orgf604bcc" class="figure">
+<p><img src="posteo-migration-service.png" alt="posteo-migration-service.png" />
+</p>
+</div>
+
+<p>
+Hvis man kommer fra en mail udbyder der har 2-faktor autentificering, som fx. Gmail har, så
+skal man først have lavet et specifikt app-password, som så er det der her skal indtastes.
+</p>
+
+<p>
+Kommer man fra Gmail, kan man lave et sådant app-password via siden <a href="https://myaccount.google.com/apppasswords">https://myaccount.google.com/apppasswords</a>
+</p>
+
+
+<p>
+Efter indtastning af app password, klik på "Proceed to folder selection".
+Der går lidt tid, hvorefter værktøjet viser en liste med foldere fra den gamle postkasse, som man
+kan vælge at medtage i migreringen.
+Man kan også vælge at importere adressebog, men i så fald kræves der endnu et password (jeg gætter på det kræver endnu et
+app-password, men jeg prøvede det ikke).
+</p>
+
+<p>
+Det ser ikke ud til at import af kalender fra Gmail er understøttet i Posteos Migration Service.
+Deres dokumentation nævner, at kalendre fra bl.a. Gmx, web.de, AOL og iCloud kan importeres.
+</p>
+
+<p>
+Importen er sat op til at placere mails i en særskilt ny folder, så der ikke er nogen risiko for at få blandet
+de importerede mails sammen med andre mails man måtte have i Posteo.
+</p>
+
+<p>
+Herefter klikker man på knappen der starter importen, og nogle øjeblikke senere begynder mails at strømme ind i migrerings folderen.
+Man kan se status for importen på samme side som importen blev startet fra.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org618c6fe" class="outline-2">
+<h2 id="org618c6fe">Alternativ import via email klient</h2>
+<div class="outline-text-2" id="text-org618c6fe">
+<p>
+Som alternativ til de værktøjer der medfølger i Proton hhv. Posteo til import fra gammel postkasse, skal det nævnes at man
+også kan gøre det ved at sætte begge mail addresser op i en email klient på PC, fx. Thunderbird.
+Fremgangsmåden er omtrent denne
+</p>
+
+<ul class="org-ul">
+<li>Sæt begge mail addresser op i email klienten.</li>
+
+<li>Indlæs al mail for begge mail addresser i klienten.</li>
+
+<li>Kopier - fx. ved Drag &amp; Drop - de ønskede mails fra gammel til ny postkasse.</li>
+</ul>
+
+<p>
+Det er selvfølgelig en ret omstændelig proces (især hvis man har mange mails man vil kopiere over).
+Men den kan måske være brugbar i nogle tilfælde, fx. hvis man vil skifte til en udbyder
+der ikke har et værktøj til import fra gammel postkasse, eller hvis man af en eller anden grund ikke stoler på et sådant værktøj.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org51d8f36" class="outline-2">
+<h2 id="org51d8f36">Konklusioner</h2>
+<div class="outline-text-2" id="text-org51d8f36">
+<p>
+Både Posteo og Proton er solide og funktionsdygtige email udbydere.
+</p>
+
+<p>
+Begge udbydere har værktøjer der gør det nogenlunde nemt at få kopieret emails mv. over fra gammel udbyder.
+</p>
+
+<p>
+Hvis man blot ønsker en simpel email og kalender funktionalitet, så kan Posteo være en fin "minimalistisk"
+løsning. Brugergrænsefladen er simplere, omend ikke så poleret som ved Proton.
+</p>
+
+<p>
+Hvis man ønsker funktionalitet udover ren email og kalender, bør man checke Proton ud.
+Brugergrænsefladen er meget behændig og moderne - og mere kompleks end ved Posteo.
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Ejner Borgbjerg</p>
+<p class="date">Created: 2025-04-04 Fri 19:51</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
