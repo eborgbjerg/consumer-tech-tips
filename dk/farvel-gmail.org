@@ -11,9 +11,9 @@ Her findes i skrivende stund 21 alternativer i kategorien 'Email Providers' (ema
 Jeg har afprøvet [[https://en.wikipedia.org/wiki/Posteo][Posteo]] og [[https://en.wikipedia.org/wiki/Proton_Mail][Proton]].
 Der var ikke nogen særlig grund til at det lige var de to, det var blot dem jeg først hørte om.
 
-Jeg vil her fortælle lidt om mine erfaringer så vidt - med speciel vægt på import fra tidligere email udbyder.
+Jeg vil her fortælle lidt om mine erfaringer, med speciel vægt på import fra tidligere email udbyder.
 
-Posteo er baseret i Berlin, har tilbudt email tjeneste siden 2009.
+Posteo er baseret i Berlin, og har tilbudt email tjeneste siden 2009.
 De tilbyder en prøveperiode på 14 dage, hvor man får pengene tilbage, hvis man ikke ønsker at fortsætte derefter.
 Mindsteprisen er pt. 1 EUR pr. måned for 2GB plads. Man kan udvide pladsen op til højst 20GB, og betaler så mere afhængigt af mængden af plads.
 
@@ -22,14 +22,14 @@ Her kan man få et gratis abonnement med 500MB plads. Skal man bruge mere (det s
 
 Begge udbydere har en udmærket webmail.
 
-Allerførst vil jeg notere, at Posteo kun pt. kun findes med engelsk, tysk og fransk brugergrænseflade.
-Proton er derimod oversat til dansk.
+Det skal bemærkes, at Posteo kun pt. kun findes med engelsk, tysk og fransk brugergrænseflade.
+Proton's brugergrænseflade er derimod oversat til dansk.
 
 Proton tilbyder udover email også opbevaring af filer (samme funktionalitet som Google Drive), kalender, password manager og VPN.
 Alt tilgængeligt på mobile enheder med iOS eller Android via Proton's egenudviklede apps.
 Via Proton Drive app'en kan man dertil indstille automatisk backup af fotos fra mobile enheder.
 
-Posteo har, udover kalender, ikke funktionalitet udover email.
+Posteo har ikke funktionalitet udover email, kalender og addressebog.
 De har ikke udviklet egne apps, men i stedet kan man sætte sin Posteo konto op i en
 generel mobil-mail app, eksempelvis K-9 Mail (Thunderbird på mobil).
 Man kan selvflg. også bare bruge webmail grænsefladen.
@@ -89,7 +89,7 @@ i søgefeltet:
 
 [[file:./gmail-search-by-size.png]]
 
-Den før nævnte side https://one.google.com/storage/management kan man også bruges til at fremfinde store mails, med henblik på sletning eller nedhentning.
+Den før nævnte side https://one.google.com/storage/management kan også bruges til at fremfinde store mails, med henblik på sletning eller nedhentning.
 
 
 
@@ -204,7 +204,7 @@ Marker boksen til højre, så emails kommer med i eksporten.
 
 * Import til Proton
 
-Proton har en brugervenlig funktion indbygget, der kan importere emails, kontakter og kalender.
+Proton har en brugervenlig funktion indbygget, der kan importere emails, kontakter og kalender fra anden email udbyder.
 Det findes i webmail under Indstillinger -> Import via Easy Switch.
 
 [[file:proton-easy-switch.png]]
@@ -216,7 +216,7 @@ Hvis man (som jeg) flytter fra Gmail, kan det gøres direkte på Easy Switch sid
 Ellers må man kigge i sin gamle udbyders dokumentation for at se hvordan man sætter videresendelse op.
 
 Selve importen er lettest hvis man kommer fra Gmail, Outlook eller Yahoo.
-Gør man ikke det, må man selv sætte en specifik adgangskode op på den gamle mail konto (og evt. åbne for anvendelse af IMAP).
+Ellers må man selv sætte en specifik adgangskode op på den gamle mail konto (og evt. åbne for anvendelse af IMAP).
 
 En nyttig detalje er at Proton automatisk mærker de importerede mails med en speciel unik etiket.
 Så hvis man efterfølgende fortryder noget ved importen, er det relativt nemt at slette alle de importerede mails og starte forfra igen.
@@ -225,6 +225,8 @@ Mine ca. 4GB af emails, kalender og adressebog tog ca. 15 timer at kopiere over.
 Da importen var færdig, sendte Proton mig en mail med en oversigt over importen, herunder pr. folder: antal fundne mails, antal importerede mails,
 antal mails der var duplikerede mellem foldere i den gamle postkasse, samt mails der blev afvist af importen.
 En håndfuld mails blev afvist pga. "ukendt afsender" og/eller at det tydeligvis var spam.
+
+Min adressebog kom ligeledes fint over. Jeg har ikke brugt Google kalenderen meget, men de få aftaler jeg har kom rigtigt over.
 
 Jeg bemærkede også at det angivne pladsforbrug efter import var noget lavere hos Proton - 2.3GB - end det var hos Gmail (3.9GB).
 Det skyldes formentlig dels at Proton har krypteret/komprimeret indholdet, dels at Proton har identificeret mange mails som duplikater af
@@ -245,31 +247,29 @@ Det findes i webmail under Settings -> Posteo migration service.
 Hvis man kommer fra en mail udbyder der har 2-faktor autentificering, som fx. Gmail har, så
 skal man først have lavet et specifikt app-password, som så er det der her skal indtastes.
 
+Kommer man fra Gmail, kan man lave et sådant app-password via siden https://myaccount.google.com/apppasswords
+
+
 Efter indtastning af app password, klik på "Proceed to folder selection".
 Der går lidt tid, hvorefter værktøjet viser en liste med foldere fra den gamle postkasse, som man
 kan vælge at medtage i migreringen.
 Man kan også vælge at importere adressebog, men i så fald kræves der endnu et password (jeg gætter på det kræver endnu et
 app-password, men jeg prøvede det ikke).
 
-
-
-TODO:
-Hvad med kalender? stod der i Posteo UI at Gmails kalender kun kunne
-flyttes via Thunderbird?
-
-
+Det ser ikke ud til at import af kalender fra Gmail er understøttet i Posteos Migration Service.
+Deres dokumentation nævner, at kalendre fra bl.a. Gmx, web.de, AOL og iCloud kan importeres.
 
 Importen er sat op til at placere mails i en særskilt ny folder, så der ikke er nogen risiko for at få blandet
-de importerede mails sammen med andre ting man måtte have i Posteo.
+de importerede mails sammen med andre mails man måtte have i Posteo.
 
 Herefter klikker man på knappen der starter importen, og nogle øjeblikke senere begynder mails at strømme ind i migrerings folderen.
-
+Man kan se status for importen på samme side som importen blev startet fra.
 
 * Alternativ import via email klient
 
 Som alternativ til de værktøjer der medfølger i Proton hhv. Posteo til import fra gammel postkasse, skal det nævnes at man
 også kan gøre det ved at sætte begge mail addresser op i en email klient på PC, fx. Thunderbird.
-Fremgangsmåden er omtrent
+Fremgangsmåden er omtrent denne
 
 - Sæt begge mail addresser op i email klienten.
 
@@ -277,17 +277,20 @@ Fremgangsmåden er omtrent
 
 - Kopier - fx. ved Drag & Drop - de ønskede mails fra gammel til ny postkasse.
 
+Det er selvfølgelig en ret omstændelig proces. Men den kan måske være brugbar i nogle tilfælde, fx. hvis man vil skifte til en udbyder
+der ikke har et værktøj til import fra gammel postkasse, eller måske hvis man ikke stoler på et sådant værktøj.
 
 * Konklusioner
 
 Både Posteo og Proton er solide og funktionsdygtige email udbydere.
 
-Hvis man ønsker funktionalitet udover ren email og kalender, bør man checke Proton ud. Brugergrænsefladen er meget behændig og moderne.
-
-Hvis man ikke ønsker mere end simpel email og kalender funktionalitet, så kan Posteo også være en fin
-løsning. Bruger grænsefladen er ikke så poleret som ved Proton.
-
 Begge udbydere har værktøjer der gør det nogenlunde nemt at få kopieret emails mv. over fra gammel udbyder.
+
+Hvis man blot ønsker en simpel email og kalender funktionalitet, så kan Posteo være en fin "minimalistisk"
+løsning. Brugergrænsefladen er simplere, omend ikke så poleret som ved Proton.
+
+Hvis man ønsker funktionalitet udover ren email og kalender, bør man checke Proton ud.
+Brugergrænsefladen er meget behændig og moderne - og mere kompleks end ved Posteo.
 
 
 * Le Chat Q/A :noexport:
