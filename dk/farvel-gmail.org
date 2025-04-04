@@ -251,6 +251,14 @@ kan vælge at medtage i migreringen.
 Man kan også vælge at importere adressebog, men i så fald kræves der endnu et password (jeg gætter på det kræver endnu et
 app-password, men jeg prøvede det ikke).
 
+
+
+TODO:
+Hvad med kalender? stod der i Posteo UI at Gmails kalender kun kunne
+flyttes via Thunderbird?
+
+
+
 Importen er sat op til at placere mails i en særskilt ny folder, så der ikke er nogen risiko for at få blandet
 de importerede mails sammen med andre ting man måtte have i Posteo.
 
