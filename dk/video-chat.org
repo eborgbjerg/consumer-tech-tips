@@ -1,0 +1,91 @@
+
+
+Mange vil sikkert gerne væk fra USA baserede video møde systemer såsom Microsoft Teams, Google Meet, Apple's FaceTime osv.
+
+https://european-alternatives.eu/category/video-conferencing-software lister pt. 10 europæiske alternativer.
+
+* Jitsi :noexport:
+
+*NB Ikke listet på european-alternatives*
+
+Kræver tilsyneladende at mindst en af mødedeltagerne har en login til Jitsi.
+Og ... pt. er de eneste login muligheder gennem enten Google eller GitHub (Microsoft).
+
+Dvs. medmindre man self-hoster en Jitsi server, så vil man stadig være afhængig af et af de store
+USA software firmaer.
+
+
+* OpenTalk
+
+Pt. kun browser UI
+
+Free plan
+
+Kun for virksomheder!?
+Ich bestätige, nicht als Verbraucher zu handeln, sondern als Unternehmer oder für eine Körperschaft oder sonstige Organisation im Rahmen ihrer satzungsgemäßen Tätigkeit. *
+
+https://opentalk.eu/en/prices
+
+
+* Digital Samba
+
+"join the waitlist"
+(I registered my Gmail address 5/4 2025)
+
+
+* Infomaniak kMeet
+
+Android app
+
+Infomaniak ligner Proton lidt?
+
+Test works (with free account)
+but is more complex it seems than FaceTime
+
+
+* ClickMeeting
+
+Android app
+
+
+* Whereby
+
+Website: ligner mest en service for læger og lignende?
+
+Android app iflg. european-alternatives - men jeg ser den ikke
+
+
+
+
+* alfaview
+
+for professional use...
+
+
+* Hostpoint Meet
+
+https://www.hostpoint.ch/en/meet/
+
+
+a free video conference service from Switzerland.
+They feature: video and audio conferencing, without registration or installation,
+an integrated chat function, screen sharing, background blurring and no time or
+number of participants limitation.
+
+
+- person A clicks in, starts a meet
+
+- person A shares the link with B
+
+- B clicks the link
+
+
+
+* Konklusioner
+
+- Hostpoint Meet: simple idea: just share a link, no registration needed!
+  Requires more testing!
+
+
+
+
