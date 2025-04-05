@@ -4,6 +4,15 @@ Mange vil sikkert gerne væk fra USA baserede video møde systemer såsom Micros
 
 https://european-alternatives.eu/category/video-conferencing-software lister pt. 10 europæiske alternativer.
 
+Note vedr. Jitsi.
+
+The non-profit-organization Digitalcourage discourages in 2023 the usage
+of the free meet.jit.si service, as it is not free of tracking,
+requires authentication at either Google, GitHub, or Facebook
+and is hosted at AWS which is not considered GDPR-compliant.
+
+
+
 * Jitsi :noexport:
 
 *NB Ikke listet på european-alternatives*
@@ -12,7 +21,11 @@ Kræver tilsyneladende at mindst en af mødedeltagerne har en login til Jitsi.
 Og ... pt. er de eneste login muligheder gennem enten Google eller GitHub (Microsoft).
 
 Dvs. medmindre man self-hoster en Jitsi server, så vil man stadig være afhængig af et af de store
-USA software firmaer.
+USA software firmaer for sin login account.
+
+See også https://en.wikipedia.org/wiki/Jitsi
+
+Bemærk iøvrigt at Hostpoint's video møde feature er baseret på hosted Jitsi.
 
 
 * OpenTalk
@@ -55,8 +68,6 @@ Website: ligner mest en service for læger og lignende?
 Android app iflg. european-alternatives - men jeg ser den ikke
 
 
-
-
 * alfaview
 
 for professional use...
@@ -72,6 +83,12 @@ They feature: video and audio conferencing, without registration or installation
 an integrated chat function, screen sharing, background blurring and no time or
 number of participants limitation.
 
+Under the hood, this is hosted Jitsi
+
+https://en.wikipedia.org/wiki/Jitsi
+
+Ved at hoste Jitsi, er der ikke nogen afhængighed af login autentikering med Google, GitHub eller Facebook.
+
 
 - person A clicks in, starts a meet
 
@@ -79,12 +96,41 @@ number of participants limitation.
 
 - B clicks the link
 
+- works in standard browsers, and also (to be tested) in Jitsi app
+
+
+
+* Livestorm TODO
+
+webinars, business calls
+mostly for business
+
+
+* meetergo TODO
+
+mostly for companies, it seems
+
+
+* Iboo TODO
+
+iboo.live seems infinitely slow (are they hosted on a VPS?)
+
 
 
 * Konklusioner
 
-- Hostpoint Meet: simple idea: just share a link, no registration needed!
-  Requires more testing!
+- Hostpoint Meet: simple idea: just share a link, no registration needed.
+  Under the hood, they are using Jitsi, as they host it themselves.
+
+- Jitsi: not european ? login limited to MS / Google  
+
+- Infomaniak kMeet
+  just a bit more complex than FaceTime (too complex for my mom?)
+
+- Business-only:
+  OpenTalk
+    
+  
 
 
 
