@@ -44,6 +44,74 @@ Not production ready yet, but it should be a matter of time only before this hap
 
 
 
+* Linux phones and tablets :noexport:
+
+https://linuxstans.com/linux-phone/
+
+** Murena de-googled
+
+https://murena.com/smartphones/
+
+
+
+** PinePhone/Tab
+
+** Librem 5 / Liberty Phone
+
+USA
+Lifetime updates
+Expensive
+
+
+** FuriLabs
+
+https://furilabs.com/shop/flx1/
+
+
+** Volla phone
+
+De-googled Android (?)
+
+
+https://www.indiegogo.com/projects/volla-tablet-simplify-your-digital-life#/
+
+
+** CutiePi
+
+https://cutiepi.io/
+Started delivering in 2023.
+But the deliveries are still stuck now (2025).
+
+** RasPad 3
+
+https://raspad.com/
+
+Looks like no activity for years (since 2021)?
+
+** Waveshare Pi Tablet Kit
+
+https://www.waveshare.com/13.3inch-PiPad-C4.htm
+
+
+** SunFounder
+
+https://www.sunfounder.com/collections/raspberrypi-kits
+
+
+
+** Mtel??? German?
+
+
+** Resources
+
+https://www.cpdevice.com/best-linux-tablets/
+
+https://liliputing.com/tag/linuxsmartphones/
+
+https://www.tomshardware.com/uk
+
+
+
 * Don't throw out your old computer just yet!
 
 
